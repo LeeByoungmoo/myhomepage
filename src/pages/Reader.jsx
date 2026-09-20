@@ -1,25 +1,83 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Settings, ChevronLeft, ChevronRight, Bookmark } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
+// Define the maximum chapters for each novel to handle Next button
+const NOVELS = {
+  'echoes-of-the-grid': { title: 'Echoes of the Grid', chapters: 20 },
+  'isolation': { title: 'Isolation: Predator in the Dark', chapters: 20 },
+  'the-day': { title: 'The Day the Women Died', chapters: 20 },
+  'liquidation': { title: 'Liquidation', chapters: 30 },
+};
+
 const Reader = () => {
-  const { id } = useParams();
+  const { id, chapter } = useParams();
+  const navigate = useNavigate();
   const [fontSize, setFontSize] = useState(18);
   const [showToast, setShowToast] = useState(false);
+  
+  const [content, setContent] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  const currentChapter = parseInt(chapter, 10) || 1;
+  const novelInfo = NOVELS[id];
+  const maxChapters = novelInfo ? novelInfo.chapters : 0;
+
+  useEffect(() => {
+    // Fetch chapter content
+    setLoading(true);
+    setError(null);
+    
+    // In production, GitHub Pages might need a base path, but since we are using Vite, 
+    // files in public are served at root. However, for GitHub pages we use base path.
+    const fetchPath = `${import.meta.env.BASE_URL}novels/${id}/${currentChapter}.txt`;
+    
+    fetch(fetchPath)
+      .then(res => {
+        if (!res.ok) throw new Error('Chapter not found');
+        return res.text();
+      })
+      .then(text => {
+        setContent(text);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error(err);
+        setError('Failed to load chapter content.');
+        setLoading(false);
+      });
+  }, [id, currentChapter]);
 
   // Restore scroll position on load
   useEffect(() => {
-    const savedScroll = localStorage.getItem(`bookmark_${id}`);
-    if (savedScroll) {
-      window.scrollTo({ top: parseInt(savedScroll, 10), behavior: 'smooth' });
+    if (!loading) {
+      const savedScroll = localStorage.getItem(`bookmark_${id}_${currentChapter}`);
+      if (savedScroll) {
+        window.scrollTo({ top: parseInt(savedScroll, 10), behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      }
     }
-  }, [id]);
+  }, [id, currentChapter, loading]);
 
   // Handle manual bookmark save
   const handleBookmark = () => {
-    localStorage.setItem(`bookmark_${id}`, window.scrollY.toString());
+    localStorage.setItem(`bookmark_${id}_${currentChapter}`, window.scrollY.toString());
     setShowToast(true);
     setTimeout(() => setShowToast(false), 3000);
+  };
+
+  const goPrev = () => {
+    if (currentChapter > 1) {
+      navigate(`/novels/${id}/${currentChapter - 1}`);
+    }
+  };
+
+  const goNext = () => {
+    if (currentChapter < maxChapters) {
+      navigate(`/novels/${id}/${currentChapter + 1}`);
+    }
   };
 
   return (
@@ -60,32 +118,42 @@ const Reader = () => {
 
       {/* Content Area */}
       <div style={{ padding: '4rem 2rem', fontSize: `${fontSize}px`, lineHeight: '1.8' }}>
-        <h1 style={{ fontSize: '2.5em', marginBottom: '2rem', textAlign: 'center' }}>Chapter 1</h1>
-        <p style={{ marginBottom: '1.5em' }}>
-          The heavy metallic thud of boots echoed against the pavement. The city of Neo-Seoul was weeping acid rain, washing away the neon reflections that stained the streets.
-        </p>
-        <p style={{ marginBottom: '1.5em' }}>
-          This is a placeholder for the immersive reading experience. Later, we can connect this to Markdown files or a CMS. The reader features adjustable font sizes and a distraction-free dark mode layout.
-        </p>
-        <p style={{ marginBottom: '1.5em' }}>
-          Enjoy the seamless reading experience built perfectly for long-form fiction.
-        </p>
-        <div style={{ height: '1000px', opacity: 0.1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          (Scroll down to test the bookmark feature)
-        </div>
-        <p style={{ marginBottom: '1.5em' }}>
-          You have reached the end of the chapter.
-        </p>
+        {loading ? (
+          <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>Loading chapter...</div>
+        ) : error ? (
+          <div style={{ textAlign: 'center', color: 'var(--accent-magenta)' }}>{error}</div>
+        ) : (
+          <>
+            <h1 style={{ fontSize: '2.5em', marginBottom: '2rem', textAlign: 'center' }}>
+              {novelInfo ? novelInfo.title : 'Novel'} - Chapter {currentChapter}
+            </h1>
+            
+            <div style={{ whiteSpace: 'pre-wrap' }}>
+              {content}
+            </div>
+            
+            <div style={{ height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            </div>
+            <p style={{ marginBottom: '1.5em', textAlign: 'center', color: 'var(--text-secondary)' }}>
+              You have reached the end of the chapter.
+            </p>
+          </>
+        )}
       </div>
 
       {/* Footer Navigation */}
       <div style={{ display: 'flex', justifyContent: 'space-between', padding: '2rem 0', borderTop: '1px solid var(--glass-border)' }}>
-        <button className="glass-panel" style={{ padding: '1rem 2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', color: 'var(--text-secondary)', background: 'transparent' }}>
-          <ChevronLeft size={18} /> Previous
-        </button>
-        <button className="glass-panel" style={{ padding: '1rem 2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', color: 'white', background: 'var(--glass-bg)' }}>
-          Next <ChevronRight size={18} />
-        </button>
+        {currentChapter > 1 ? (
+          <button onClick={goPrev} className="glass-panel" style={{ padding: '1rem 2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', color: 'var(--text-secondary)', background: 'transparent' }}>
+            <ChevronLeft size={18} /> Previous
+          </button>
+        ) : <div />}
+        
+        {currentChapter < maxChapters ? (
+          <button onClick={goNext} className="glass-panel" style={{ padding: '1rem 2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', color: 'white', background: 'var(--glass-bg)' }}>
+            Next <ChevronRight size={18} />
+          </button>
+        ) : <div />}
       </div>
 
     </div>

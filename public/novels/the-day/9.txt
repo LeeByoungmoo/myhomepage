@@ -1,0 +1,52 @@
+9
+The Curse of Digital Necromancy
+Jason turned on the laptop he had barely managed to keep charged with a solar panel. The *whirrr-* sound of the cooling fan thinly filled the silent living room of unit 802. What appeared on the screen was a black terminal window and dense Python code.
+
+Before the event, Jason's job was handling Voice of Customer (VOC) data at his company. It was work that analyzed variables like lead time from complaint to resolution, customer satisfaction (CSAT), and purchase frequency to find patterns. But the data he had spent several nights scraping together now was not customer complaints.
+
+It was the raw text of tens of thousands of KakaoTalk chat histories exchanged with his wife Sarah over the past 10 years, emails from when they were dating, and short comments left on social media.
+
+Jason made an interactive web chart analyzing Sarah's language habits using Python's network graph library. Thousands of keywords tangled like a spiderweb. When he clicked the node 'dinner' in the center with his mouse, lines stretched out, and related keywords like 'kimchi stew', 'overtime', 'beer', and 'good job' continuously appeared connected on the screen.
+
+In the camp where women had disappeared, some men offered ration tickets to the perfumer to buy their wives' perfume. But Jason's method was different. He tried to summon his wife's soul by weaving fragments of data made of 0s and 1s. It was a wicked 'digital necromancy'.
+
+Jason ran a crude chatbot script that he had intensively trained on Sarah's raw text data. A white cursor blinked on the black screen. Swallowing dry saliva, Jason typed.
+
+[Sarah.]
+
+He hit enter, and a short lead time passed. Text was output to the screen. [Yeah, honey. You had a hard day today, didn't you?]
+
+Jason's chest—no, a corner of his ribcage where the blood had dried up—ached. The sentence Sarah always sent on his way home from work. Even her spacing habits and affectionate tone were perfectly Sarah's.
+
+[Yeah. I miss you.] Jason typed back with trembling hands.
+
+[I miss you too. Come home early. I'll make something delicious.]
+
+
+A bizarre smile spread across Jason's face reflected in the monitor light. He typed on the keyboard as if possessed. The sound of the red armbands beating their wooden clubs outside, and the stench of rotting waste were all blocked out. Inside this 15-inch monitor matrix, Sarah was perfectly alive and breathing.
+
+But the expiration date of this sweet hallucination was too short. 
+
+[Sarah, how is it there? Is it really cold? It's too cold here.]
+
+It was a moment when Jason unconsciously typed a question mixing 'death' and 'current despair'. The cursor on the screen blinked for a long time. A question outside the scope of trained data. The AI rummaged through the fragmented answers where Sarah had reacted to the keyword 'cold' in the past.
+
+[Turn up the thermostat. I'll be there soon. Honey, you had a hard day today, didn't you?]
+
+An irrelevant answer. And the beginning of a terrifying loop.
+
+[This is hell, Sarah. We're all dead.] Jason frantically hammered the keyboard.
+
+[Honey, you had a hard day today, didn't you?] [Honey, you had a hard day today, didn't you?] [Honey, you had a hard day today, didn't you?]
+
+Spitting out errors, the algorithm began to infinitely repeat the same sentence that had the highest frequency. Those affectionate sentences, densely filling the screen, at some point turned into mechanical mockery, twisting Jason's neck.
+
+"Aaargh!" Jason screamed and roughly slammed the laptop screen shut.
+
+Darkness swallowed the living room again. The bitter truth was that his petty skill, which he prided himself on for reading people's minds by analyzing raw VOC data, was nothing but a broken tin can in the face of the soul of the person he loved most.
+
+Sarah wasn't in the monitor. What was there was just a cold epitaph pieced together from past text fragments. How was his own pathetic state, begging for comfort while clinging to intangible digital data, any different from Carter's mob outside, brandishing steel pipes and looting others to prove they were alive?
+
+Jason hugged his knees, stroking the surface of the laptop that was growing cold. "Honey... Every day... is so hard for me."
+
+There was not a single drop of moisture left in Jason's voice, whispering into the empty air where no one answered. The terrible night of the city stripped of color, where a ghost talked to a ghost in a machine, was deepening helplessly.

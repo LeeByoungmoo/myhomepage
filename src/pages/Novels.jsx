@@ -19,7 +19,7 @@ const Novels = () => {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '4rem', padding: '2rem' }}>
         {novelsData.map((novel) => (
           <div key={novel.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <Link to={`/novels/${novel.id}`} className="book-container">
+            <Link to={`/novels/${novel.id}/1`} className="book-container">
               <div className="book">
                 <div className="book-cover">
                   <img src={novel.cover} alt={novel.title} />
