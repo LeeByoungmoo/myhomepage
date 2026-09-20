@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate US Fast Food World Cup</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0 10px;
+            font-size: 2rem;
+            color: #e94560;
+        }
+        #round-info {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #0f3460;
+            background: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        #game-container {
+            display: flex;
+            width: 100%;
+            max-width: 800px;
+            flex-grow: 1;
+            padding: 0 10px 20px;
+            box-sizing: border-box;
+            gap: 15px;
+        }
+        @media (max-width: 600px) {
+            #game-container {
+                flex-direction: column;
+            }
+        }
+        .option-card {
+            flex: 1;
+            background-color: #0f3460;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            border: 3px solid transparent;
+        }
+        .option-card:hover {
+            transform: scale(1.02);
+            background-color: #e94560;
+            border-color: #fff;
+        }
+        .option-name {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            word-break: keep-all;
+        }
+        .vs-badge {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #e94560;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border: 4px solid #1a1a2e;
+            z-index: 10;
+        }
+        #result-container {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .winner-card {
+            background-color: #e94560;
+            padding: 40px;
+            border-radius: 20px;
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 0 30px rgba(233, 69, 96, 0.6);
+            animation: pop 0.5s ease-out;
+        }
+        @keyframes pop {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        button {
+            background-color: #0f3460;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #fff;
+            color: #0f3460;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🍔 Fast Food World Cup</h1>
+    <div id="round-info">Round of 16 (1/8)</div>
+
+    <div style="position: relative; width: 100%; max-width: 800px; flex-grow: 1; display: flex; flex-direction: column;">
+        <div id="game-container">
+            <div class="option-card" id="option1" onclick="selectOption(0)">
+                <div class="option-name" id="name1">Brand 1</div>
+            </div>
+            <div class="option-card" id="option2" onclick="selectOption(1)">
+                <div class="option-name" id="name2">Brand 2</div>
+            </div>
+        </div>
+        <div class="vs-badge" id="vs-badge">VS</div>
+    </div>
+
+    <div id="result-container">
+        <h2>🎉 The Ultimate Champion 🎉</h2>
+        <div class="winner-card" id="winner-name">Winner</div>
+        <p>Share your ultimate fast food choice!</p>
+        <div>
+            <button onclick="restart()">Play Again</button>
+        </div>
+    </div>
+
+    <script>
+        const initialBrands = [
+            "McDonald's", "In-N-Out", "Shake Shack", "Chick-fil-A",
+            "Popeyes", "Wendy's", "Taco Bell", "KFC",
+            "Burger King", "Subway", "Domino's Pizza", "Chipotle",
+            "Sonic Drive-In", "Five Guys", "Jack in the Box", "Arby's"
+        ];
+
+        let currentRound = [];
+        let nextRound = [];
+        let matchIndex = 0;
+        let totalMatches = 0;
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function initGame() {
+            currentRound = shuffle([...initialBrands]);
+            nextRound = [];
+            matchIndex = 0;
+            document.getElementById('game-container').style.display = 'flex';
+            document.getElementById('vs-badge').style.display = 'flex';
+            document.getElementById('result-container').style.display = 'none';
+            updateUI();
+        }
+
+        function updateUI() {
+            totalMatches = currentRound.length / 2;
+            let roundName = currentRound.length === 2 ? "Final" : 
+                            currentRound.length === 4 ? "Semifinals" :
+                            currentRound.length === 8 ? "Quarterfinals" : 
+                            "Round of 16";
+                            
+            document.getElementById('round-info').innerText = `${roundName} (${matchIndex + 1}/${totalMatches})`;
+
+            document.getElementById('name1').innerText = currentRound[matchIndex * 2];
+            document.getElementById('name2').innerText = currentRound[matchIndex * 2 + 1];
+        }
+
+        function selectOption(index) {
+            const winner = currentRound[matchIndex * 2 + index];
+            nextRound.push(winner);
+            
+            matchIndex++;
+            
+            if (matchIndex >= totalMatches) {
+                // Round over
+                currentRound = [...nextRound];
+                nextRound = [];
+                matchIndex = 0;
+                
+                if (currentRound.length === 1) {
+                    showWinner(currentRound[0]);
+                    return;
+                }
+            }
+            
+            updateUI();
+        }
+
+        function showWinner(winner) {
+            document.getElementById('round-info').innerText = "Winner!";
+            document.getElementById('game-container').style.display = 'none';
+            document.getElementById('vs-badge').style.display = 'none';
+            document.getElementById('result-container').style.display = 'flex';
+            document.getElementById('winner-name').innerText = winner;
+        }
+
+        function restart() {
+            initGame();
+        }
+
+        // Start game
+        initGame();
+    </script>
+</body>
+</html>

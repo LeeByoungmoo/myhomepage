@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위바위보 게임</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 30px;
+        }
+        .game-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+        .score-board {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .score {
+            color: #e53935;
+        }
+        .choices {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .choice-btn {
+            background: none;
+            border: 3px solid transparent;
+            font-size: 50px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            padding: 15px;
+            border-radius: 50%;
+        }
+        .choice-btn:hover {
+            transform: scale(1.1);
+            background: #e8f0fe;
+            border-color: #1a73e8;
+        }
+        .result-message {
+            font-size: 24px;
+            font-weight: bold;
+            min-height: 35px;
+            margin-top: 20px;
+        }
+        .vs-text {
+            font-size: 20px;
+            color: #666;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>✌️ 가위 바위 보 ✊</h1>
+        
+        <div class="score-board">
+            <div>나: <span id="user-score" class="score">0</span></div>
+            <div>컴퓨터: <span id="comp-score" class="score">0</span></div>
+        </div>
+
+        <div class="choices">
+            <button class="choice-btn" onclick="play('scissors')">✌️</button>
+            <button class="choice-btn" onclick="play('rock')">✊</button>
+            <button class="choice-btn" onclick="play('paper')">🖐️</button>
+        </div>
+
+        <div class="vs-text" id="vs-text">선택해주세요!</div>
+        <div class="result-message" id="result-message"></div>
+    </div>
+
+    <script>
+        let userScore = 0;
+        let compScore = 0;
+        const choices = ['scissors', 'rock', 'paper'];
+        const emojis = {'scissors': '✌️', 'rock': '✊', 'paper': '🖐️'};
+
+        function play(userChoice) {
+            const compChoice = choices[Math.floor(Math.random() * 3)];
+            
+            document.getElementById('vs-text').innerHTML = `나 ${emojis[userChoice]} VS ${emojis[compChoice]} 컴퓨터`;
+            
+            let result = '';
+            if (userChoice === compChoice) {
+                result = '무승부입니다! 😅';
+            } else if (
+                (userChoice === 'rock' && compChoice === 'scissors') ||
+                (userChoice === 'paper' && compChoice === 'rock') ||
+                (userChoice === 'scissors' && compChoice === 'paper')
+            ) {
+                result = '이겼습니다! 🎉';
+                userScore++;
+                document.getElementById('user-score').innerText = userScore;
+            } else {
+                result = '졌습니다! 😭';
+                compScore++;
+                document.getElementById('comp-score').innerText = compScore;
+            }
+            
+            const resultEl = document.getElementById('result-message');
+            resultEl.innerText = result;
+            resultEl.style.color = result.includes('이겼') ? '#43a047' : result.includes('졌') ? '#e53935' : '#fb8c00';
+        }
+    </script>
+</body>
+</html>
