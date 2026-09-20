@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
+import echoesImg from '../assets/echoes.jpg';
+import isolationImg from '../assets/isolation.jpg';
+import womenDiedImg from '../assets/women_died.jpg';
+import liquidationImg from '../assets/liquidation_cover.jpg';
 
 const novelsData = [
-  { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: '/src/assets/echoes.jpg' },
-  { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, desc: 'Deep space horror.', cover: '/src/assets/isolation.jpg' },
-  { id: 'the-day', title: 'The Day the Women Died', chapters: 20, desc: 'Post-apocalyptic survival.', cover: '/src/assets/women_died.jpg' },
-  { id: 'liquidation', title: 'Liquidation', chapters: 10, desc: 'A sci-fi action thriller about a futuristic enforcer.', cover: '/src/assets/liquidation_cover.jpg' },
+  { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: echoesImg },
+  { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, desc: 'Deep space horror.', cover: isolationImg },
+  { id: 'the-day', title: 'The Day the Women Died', chapters: 20, desc: 'Post-apocalyptic survival.', cover: womenDiedImg },
+  { id: 'liquidation', title: 'Liquidation', chapters: 30, desc: 'A sci-fi action thriller about a futuristic enforcer.', cover: liquidationImg },
 ];
 
 const Novels = () => {
