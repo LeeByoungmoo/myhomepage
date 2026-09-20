@@ -4,6 +4,7 @@ const gamesData = [
   { id: 'rockpaper', title: 'Rock Paper Scissors', desc: 'A classic game of Rock Paper Scissors.', icon: '✌️' },
   { id: 'worldcup', title: 'World Cup', desc: 'Choose your favorites in this bracket-style tournament.', icon: '🏆' },
   { id: 'calc_game', title: 'Calculator Game', desc: 'A brain-teasing number puzzle.', icon: '🧮' },
+  { id: 'hwatugame', title: 'Hwatu (Go-Stop)', desc: 'The traditional Korean card game.', icon: '🎴' },
 ];
 
 const Games = () => {

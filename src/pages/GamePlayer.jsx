@@ -1,11 +1,13 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Maximize2, Minimize2 } from 'lucide-react';
+import { ArrowLeft, Maximize2, Minimize2, Download } from 'lucide-react';
 import { useState } from 'react';
+import HwatuWeb from './HwatuWeb';
 
 const gamesMap = {
   'rockpaper': { title: 'Rock Paper Scissors', path: '/myhomepage/games/rockpaper/index.html' },
   'worldcup': { title: 'World Cup', path: '/myhomepage/games/worldcup/index.html' },
   'calc_game': { title: 'Calculator Game', path: '/myhomepage/games/calc_game/index.html' },
+  'hwatugame': { title: 'Hwatu (Go-Stop)', isReactComponent: true, apkPath: '/myhomepage/games/hwatugame.apk' },
 };
 
 const GamePlayer = () => {
@@ -47,23 +49,38 @@ const GamePlayer = () => {
           {game.title}
         </h3>
 
-        <button 
-          onClick={toggleFullscreen}
-          style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
-        >
-          {isFullscreen ? <Minimize2 size={18} /> : <Maximize2 size={18} />}
-          <span style={{ fontSize: '0.9rem' }}>{isFullscreen ? 'Exit Fullscreen' : 'Fullscreen'}</span>
-        </button>
+        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          {game.apkPath && (
+            <a 
+              href={game.apkPath} 
+              download
+              style={{ background: 'var(--accent-blue)', color: '#000', padding: '0.4rem 1rem', borderRadius: '20px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.9rem', fontWeight: 'bold' }}
+            >
+              <Download size={16} /> APK
+            </a>
+          )}
+          <button 
+            onClick={toggleFullscreen}
+            style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+          >
+            {isFullscreen ? <Minimize2 size={18} /> : <Maximize2 size={18} />}
+            <span style={{ fontSize: '0.9rem' }}>{isFullscreen ? 'Exit Fullscreen' : 'Fullscreen'}</span>
+          </button>
+        </div>
       </div>
 
-      {/* Iframe Container */}
-      <div style={{ flex: 1, background: '#111', borderRadius: isFullscreen ? '0' : '0 0 12px 12px', overflow: 'hidden', border: isFullscreen ? 'none' : '1px solid var(--glass-border)', borderTop: 'none' }}>
-        <iframe 
-          src={game.path} 
-          style={{ width: '100%', height: '100%', border: 'none' }}
-          title={game.title}
-          allow="fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        />
+      {/* Game Container */}
+      <div style={{ flex: 1, background: '#111', borderRadius: isFullscreen ? '0' : '0 0 12px 12px', overflow: 'auto', border: isFullscreen ? 'none' : '1px solid var(--glass-border)', borderTop: 'none' }}>
+        {game.isReactComponent ? (
+          id === 'hwatugame' && <HwatuWeb />
+        ) : (
+          <iframe 
+            src={game.path} 
+            style={{ width: '100%', height: '100%', border: 'none' }}
+            title={game.title}
+            allow="fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          />
+        )}
       </div>
 
     </div>
