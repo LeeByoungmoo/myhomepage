@@ -4,6 +4,7 @@ const novelsData = [
   { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: '/src/assets/echoes.jpg' },
   { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, desc: 'Deep space horror.', cover: '/src/assets/isolation.jpg' },
   { id: 'the-day', title: 'The Day the Women Died', chapters: 20, desc: 'Post-apocalyptic survival.', cover: '/src/assets/women_died.jpg' },
+  { id: 'liquidation', title: 'Liquidation', chapters: 10, desc: 'A sci-fi action thriller about a futuristic enforcer.', cover: '/src/assets/liquidation_cover.jpg' },
 ];
 
 const Novels = () => {
