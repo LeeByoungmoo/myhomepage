@@ -9,7 +9,7 @@ const Layout = () => {
     <div className="app-container">
       <header className="glass-panel" style={{ margin: '1rem', padding: '1rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '800', fontSize: '1.25rem' }}>
-          <span className="text-gradient">NEXUS</span>
+          <span className="text-gradient">Bluemoon393</span>
         </Link>
         
         <nav style={{ display: 'flex', gap: '2rem' }} className="desktop-nav">
@@ -27,7 +27,7 @@ const Layout = () => {
       </main>
 
       <footer style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-        <p>© {new Date().getFullYear()} NEXUS. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Bluemoon393. All rights reserved.</p>
       </footer>
     </div>
   );
