@@ -3,8 +3,10 @@ import echoesImg from '../assets/echoes.jpg';
 import isolationImg from '../assets/isolation.jpg';
 import womenDiedImg from '../assets/women_died.jpg';
 import liquidationImg from '../assets/liquidation_cover.jpg';
+import atmosphericImg from '../assets/atmospheric_pressure.jpg';
 
 const novelsData = [
+  { id: 'atmospheric-pressure', title: 'Atmospheric Pressure (기압)', chapters: 20, desc: 'A deep sea sci-fi psychological thriller.', cover: atmosphericImg },
   { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: echoesImg },
   { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, desc: 'Deep space horror.', cover: isolationImg },
   { id: 'the-day', title: 'The Day the Women Died', chapters: 20, desc: 'Post-apocalyptic survival.', cover: womenDiedImg },
