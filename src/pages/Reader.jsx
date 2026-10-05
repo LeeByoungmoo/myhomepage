@@ -1,4 +1,4 @@
-import { useParams, Link, useNavigate } from 'react-router-dom';
+﻿import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Settings, ChevronLeft, ChevronRight, Bookmark } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -9,6 +9,7 @@ const NOVELS = {
   'the-day': { title: 'The Day the Women Died', chapters: 20 },
   'liquidation': { title: 'Liquidation', chapters: 30 },
   'atmospheric-pressure': { title: 'Atmospheric Pressure', chapters: 20 },
+  'cell-division': { title: 'Cell Division and the Universe', chapters: 20 },
 };
 
 const Reader = () => {
@@ -113,7 +114,7 @@ const Reader = () => {
 
       {showToast && (
         <div className="bookmark-toast">
-          🔖 Bookmark saved! You can resume from here next time.
+          ?뵔 Bookmark saved! You can resume from here next time.
         </div>
       )}
 
