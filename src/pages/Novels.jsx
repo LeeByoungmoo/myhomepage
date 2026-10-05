@@ -27,10 +27,16 @@ const Novels = () => {
               <div className="book">
                 <div className="book-cover">
                   <img src={novel.cover} alt={novel.title} />
-                  <div style={{ position: 'absolute', top: '15%', left: 0, right: 0, padding: '0 1rem', textAlign: 'center', zIndex: 10 }}>
-                    <h2 style={{ fontSize: '1.4rem', margin: 0, color: '#ffffff', textShadow: '0 2px 6px rgba(0,0,0,0.9), 0 0 20px rgba(0,0,0,0.8)', fontFamily: '"Times New Roman", serif', letterSpacing: '1px', lineHeight: '1.3' }}>
-                      {novel.title}
-                    </h2>
+                  <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, padding: '10% 1REM 15px 1REM', display: 'flex', flexDirection: 'column', alignItems: 'center', background: 'linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 100%)', zIndex: 10, justifyContent: 'space-between' }}>
+                    <div style={{ textAlign: 'center', width: '100%' }}>
+                      <h2 style={{ fontSize: '1.5RE', fontWeight: 800, margin: 0, textTransform: 'uppercase', letterSpacing: '2px', fontFamily: '"Georgia", serif', textShadow: '0 4px 12px rgba(0,0,0,1)', lineHeight: '1.3', background: 'linear-gradient(to bottom, #ffffff, #bbbbbb)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+                        {novel.title}
+                      </h2>
+                      <div style={{ width: '30px', height: '2px', background: 'var(--accent-cyan)', margin: '14px auto 0 auto', boxShadow: '0 0 10px var(--accent-cyan)' }}></div>
+                    </div>
+                    <div style={{ textAlign: 'center', width: '100%' }}>
+                      <p style={{ margin: 0, fontSize: '0.65REM', textTransform: 'uppercase', letterSpacing: '3px', color: '#aaaaaa', textShadow: '0 2px 4px rgba(0,0,0,0.9)', fontFamily: 'sans-serif' }}>Bluemoon393</p>
+                    </div>
                   </div>
                 </div>
               </div>
