@@ -16,9 +16,6 @@ const Layout = () => {
           <Link to="/novels" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <BookOpen size={18} /> Novels
           </Link>
-          <Link to="/games" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Gamepad2 size={18} /> Games
-          </Link>
         </nav>
       </header>
 

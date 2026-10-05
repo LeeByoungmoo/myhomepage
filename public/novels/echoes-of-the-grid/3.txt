@@ -9,7 +9,7 @@ The dream was always the same now.
 
 Sand. An ocean of it, rolling to every horizon in dunes that shifted and reformed like the surface of a living thing. A sky bleached white by a sun that seemed closer here, more aggressive, as if it bore a personal grudge against everything that tried to survive beneath it. And somewhere in the shimmering distance, a sound — the rhythmic tinkling of camel bells, faint and persistent, like a pulse.
 
-Jin-woo had been having the dream for four nights.
+Julian had been having the dream for four nights.
 
 Each time, the details sharpened. On the first night, the desert had been vague — an impression, a mood. By the fourth night, he could feel the sand between his teeth, could smell the particular dry-mineral scent of rock heated beyond endurance, could taste copper on his tongue. And each time, just before he woke, a woman screamed — a single, high note of anguish that cut through the heat-shimmer like a blade through silk.
 
@@ -19,7 +19,7 @@ He sat on the edge of the bed and stared at his hands. The burn on his left palm
 
 On the kitchen table, the blade lay on its towel. Inert. Innocent. Catching the amber glow of the streetlight that leaked through the curtains.
 
-Jin-woo picked up his phone and typed a message to Su-hyun: *One of the engravings. The one that's not Chinese, not Korean. You said it looked Central Asian?*
+Julian picked up his phone and typed a message to Sophie: *One of the engravings. The one that's not Chinese, not Korean. You said it looked Central Asian?*
 
 Her reply came at 6:12 AM, which meant she'd been up all night too. *Sogdian. I'm almost certain. I've been corresponding with a colleague at SOAS in London — an expert on pre-Islamic Central Asian scripts. He confirms the script family. He's working on a full translation.*
 
@@ -113,13 +113,13 @@ The woman looked at him. Her eyes were black and sharp and held a question she d
 
 ### *Seoul, Present Day*
 
-Su-hyun's London colleague, a lean, elderly Uzbek named Professor Karimov who had spent forty years decoding dead languages, sent his preliminary analysis on a Wednesday.
+Sophie's London colleague, a lean, elderly Uzbek named Professor Karimov who had spent forty years decoding dead languages, sent his preliminary analysis on a Wednesday.
 
-"The Sogdian inscription," Su-hyun told Jin-woo over coffee in the university cafeteria, "is a single word. Or rather, a compound word — the script is archaic enough that the morpheme boundaries are ambiguous. But Karimov's best reading is either 'warning' or 'danger-of-consumption.' Like a warning label on a poison bottle."
+"The Sogdian inscription," Sophie told Julian over coffee in the university cafeteria, "is a single word. Or rather, a compound word — the script is archaic enough that the morpheme boundaries are ambiguous. But Karimov's best reading is either 'warning' or 'danger-of-consumption.' Like a warning label on a poison bottle."
 
 "Warning about what?"
 
-"He doesn't know. It's just the one word. No context, no surrounding text." She stirred her coffee without drinking it. "Jin-woo, I want to ask you something, and I want you to answer honestly."
+"He doesn't know. It's just the one word. No context, no surrounding text." She stirred her coffee without drinking it. "Julian, I want to ask you something, and I want you to answer honestly."
 
 "All right."
 
@@ -129,7 +129,7 @@ He hesitated a beat too long.
 
 "Let me see."
 
-He unwrapped the bandage. Su-hyun's intake of breath was sharp enough to turn heads at the next table. The burn had spread — not dramatically, but unmistakably, its edges creeping toward his wrist in tendrils of discolored skin. And beside it, the new cut — clean, precise, unexplained.
+He unwrapped the bandage. Sophie's intake of breath was sharp enough to turn heads at the next table. The burn had spread — not dramatically, but unmistakably, its edges creeping toward his wrist in tendrils of discolored skin. And beside it, the new cut — clean, precise, unexplained.
 
 "When did that appear?"
 
@@ -139,7 +139,7 @@ He unwrapped the bandage. Su-hyun's intake of breath was sharp enough to turn he
 
 "Yes."
 
-Su-hyun's face performed the complicated maneuver of a scientist confronting data that violated her worldview. She wanted to say something rational — an allergic reaction, a stress-induced dermatological condition, the perfectly reasonable explanation that Jin-woo was scratching himself in his sleep. But the burn wasn't an allergy, and the cut wasn't a scratch, and the sand on his pillowcase hadn't come from anywhere in Mapo-gu.
+Sophie's face performed the complicated maneuver of a scientist confronting data that violated her worldview. She wanted to say something rational — an allergic reaction, a stress-induced dermatological condition, the perfectly reasonable explanation that Julian was scratching himself in his sleep. But the burn wasn't an allergy, and the cut wasn't a scratch, and the sand on his pillowcase hadn't come from anywhere in Mapo-gu.
 
 "I'm going to say something," she said carefully, "and you're going to think I'm being dramatic."
 
@@ -231,7 +231,7 @@ Yeonhwa hadn't woken.
 
 ### *Seoul, Present Day*
 
-Jin-woo dreamed of the desert again that night. But this time the dream was different. Instead of the formless landscape of sand and sound, he stood in a specific place — an oasis town, mud-brick walls, a market square where traders shouted in languages he didn't recognize. And in the square, two figures: an old merchant with blood on his hand, and a young woman with dead eyes and a sword.
+Julian dreamed of the desert again that night. But this time the dream was different. Instead of the formless landscape of sand and sound, he stood in a specific place — an oasis town, mud-brick walls, a market square where traders shouted in languages he didn't recognize. And in the square, two figures: an old merchant with blood on his hand, and a young woman with dead eyes and a sword.
 
 He woke at 4 AM with the taste of sand in his mouth and the new cut on his hand throbbing in time with his heartbeat.
 
@@ -296,10 +296,3 @@ That evening, by lamplight, Narses carved a single word into the flat of the bla
 *End of Episode 3*
 
 ---
-
-> **Writing Progress Memo**
-> - EP01: ✅ COMPLETE
-> - EP02: ✅ COMPLETE
-> - EP03: ✅ COMPLETE (~4,700 words)
-> - Next: EP04 - Moonlight over Silla (Unified Silla, 8th Century)
-> - To resume: "칼의 기억 소설 이어서 써줘. EP01~03 완료됨. EP04부터."

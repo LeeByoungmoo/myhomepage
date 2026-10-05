@@ -8,6 +8,7 @@ const NOVELS = {
   'isolation': { title: 'Isolation: Predator in the Dark', chapters: 20 },
   'the-day': { title: 'The Day the Women Died', chapters: 20 },
   'liquidation': { title: 'Liquidation', chapters: 30 },
+  'atmospheric-pressure': { title: 'Atmospheric Pressure', chapters: 20 },
 };
 
 const Reader = () => {

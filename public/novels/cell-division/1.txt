@@ -1,0 +1,65 @@
+Episode 1: Deja Vu
+My brain hadn’t even processed the desire for coffee yet.
+
+"Black. No sugar."
+
+Chloe set a steaming mug on my desk. I pulled my eyes away from the quantum entanglement data glaring on the dual monitors and looked up at her. Outside the window, the hazy October morning sunlight was reflecting off the Charles River. It was a perfectly peaceful, everyday scene at MIT. Except for one detail.
+
+"Chloe," I said, rubbing my temples. "Did I ask you to get me coffee?"
+
+"You just did. Two minutes ago." She shrugged, tapping something onto her tablet. "You said, 'My head is splitting, Chloe. Transfuse some goddamn caffeine into my veins.'"
+
+I froze, my fingers lingering on the mug's handle. I had absolutely no memory of speaking those words. Yet, as she repeated them, her intonation, her choice of words, even the exact texture of my own irritation flooded my mind with terrifying clarity. It was as if a file had just been forcibly downloaded into my brain. The memory felt hyper-real, but its timing was fundamentally misaligned.
+
+These occurrences had been happening with disturbing frequency over the past three days. Emails I had no memory of drafting were sitting in my "Sent" folder, timestamped for tomorrow. The cellular culture hypotheses I had mapped out late last night had already been tested by my lab assistants by the time I walked in this morning. I had tried to write it off as extreme sleep deprivation—an occupational hazard for a quantum biologist chasing tenure—but the discrepancies were becoming too granular, too physical to ignore.
+
+I turned my attention back to the monitors. The system clock in the bottom right corner was stuttering. 09:14 AM. Then it flickered. 09:13 AM. Time was rippling, behaving less like an arrow and more like a scratched vinyl record. A simple server synchronization error, perhaps. But the data on the left screen—the quantum entropy readings of a Saccharomyces cerevisiae yeast cell—was completely inexplicable.
+
+"Look at this, Chloe," I muttered, leaning closer to the screen. "The physical mass of the cell hasn't changed a microgram. But its quantum information density has doubled in the last hour. It’s exceeding the Bekenstein bound."
+
+Chloe leaned over my shoulder, her brow furrowing. "The Bekenstein bound? Dr. Finch, that’s a physics limit for black holes, not yeast. A finite space can only hold a finite amount of information before it collapses. If the entropy doubled without mass increasing... the laws of thermodynamics are having a stroke."
+
+"Exactly. It's physically impossible."
+
+"Maybe the sensor array is fried," she suggested, though she didn't sound convinced. "It's all over the news feeds. A data center out in California reported a massive duplication error this morning and just shut down. Half of Google's servers bricked themselves because the system kept trying to overwrite existing data with exact duplicates from a millisecond in the future."
+
+Before I could process the implications of that statement, a piercing siren shattered the quiet of the lab. It wasn’t a campus security alarm; it was a city-wide civil defense siren, the kind designed to tear through the noise of Boston traffic.
+
+I bolted to the window. Below, on the Massachusetts Avenue bridge, a horrific chain-reaction pileup was unfolding. But it wasn't a normal accident. I watched a silver Tesla speeding in the left lane. Suddenly, the vehicle flickered—there was no other word for it. It visually stuttered, instantly snapping back twenty yards to the space it had occupied exactly one second prior.
+
+The physical laws of momentum didn't care about temporal glitches. A massive delivery truck that was occupying that exact space slammed into the materialized Tesla. But they didn't just collide; for a sickening fraction of a second, the two vehicles geometrically intersected, two physical objects occupying the same spatial coordinates, before violently exploding into a fireball of tearing metal and glass. Reality was lagging.
+
+Behind me, the heavy soundproof door of the lab crashed open, kicked in from the hallway.
+
+A man stood in the doorway, chest heaving. He was covered in dust—scuffed leather jacket, two days of stubble, and eyes bloodshot and wide with manic terror.
+
+Julian Mercer. My oldest friend. He'd driven his ancient Bronco cross-country the week before to give a colloquium at the Harvard-Smithsonian Center for Astrophysics—a talk I'd skipped—and by now he was supposed to be halfway home to the Very Large Array in New Mexico.
+
+"Goddammit, Arthur! Do you know how many times I almost rear-ended *myself* on the drive over from Harvard Square?" Julian barked, striding into the room. "The streets are full of lunatics. People are screaming about remembering things that haven't happened yet!"
+
+He didn't wait for a greeting. He slammed a thick stack of crumpled plotter printouts onto my desk, nearly knocking over the coffee.
+
+"Julian? What the hell are you doing in Boston? This is a restricted access—"
+
+"Shut up and look at the data," Julian’s voice trembled with a terrifying mix of awe and dread. He smoothed out the top sheet. It was a 3D topographical scan of the Cosmic Microwave Background (CMB)—the residual heat map of the Big Bang.
+
+"Last night, the VLA servers started receiving an influx of data so massive it nearly melted our mainframes. My team's been piping it to me at the CfA all night," Julian said, pacing frantically. "At first, the Pentagon thought it was an anomaly. A solar flare. Hell, even aliens. But it’s none of those." He stopped and locked eyes with me. "Arthur, the entire observable universe—13.8 billion years of cosmic data—is arriving in duplicate. Perfectly identical patterns, arriving a fraction of a second apart."
+
+I stared at the sprawling cosmic map, trying to force my brain to translate astrophysics into my own biological lexicon. "What does that mean? An echo? Gravitational lensing?"
+
+"No!" Julian slammed his fist on the desk, then pointed a shaky finger at my monitor, where the yeast cell's impossible entropy readings were still flashing. "It means it's doing the exact same goddamn thing your little cells are doing. The universe isn't just sitting there. It’s operating in the background, copying itself. The whole system has hit its maximum data capacity, Arthur! The hard drive is full, and to prevent a total collapse of physical laws, it’s actively cloning its own information!"
+
+The Bekenstein bound. My cells. His galaxies.
+
+"A biological backup," I whispered. The sheer scale of the realization hit me like a physical blow. "It’s not just copying data, Julian. This is interphase. The universe... it’s preparing to divide."
+
+As the words left my mouth, the lights in the lab simultaneously died. The monitors went black. Even the backup emergency generators failed to kick in. A heavy, suffocating silence descended on the room, broken only by the distant wail of the city sirens.
+
+Outside the window, the morning sky was wrong. The pale blue had distorted into a nauseating, pixelated static of deep purple and black, like a broken television screen struggling to render a signal.
+
+"We need to get out of here," I said, grabbing my coat. My mind was racing. If reality itself was replicating its quantum information, any digital network, any connected memory drive, would become corrupted as the two timelines clashed. "Every server on earth is going to become a meat grinder of corrupted data. Your grandfather’s old bunker in Nevada... the abandoned mine. Is it still a functional Faraday cage?"
+
+Julian flashed a grim, unhinged smile. "Silas would shoot me for calling it anything less. The Bronco's idling in the alley. But we’d better hurry."
+
+He checked his watch, though the second hand was vibrating in place. "When I was running up the stairs to get here, I passed the lobby. I saw 'us' running out the front doors. We leave in exactly five minutes."
+

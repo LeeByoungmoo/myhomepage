@@ -21,39 +21,39 @@ Until King Sejong decided to look.
 
 Sejong the Great — architect of the Korean alphabet, patron of science, the most celebrated monarch in Korean history — was not a man who tolerated gaps in his knowledge.
 
-He had discovered the discrepancy during one of his legendary late-night reading sessions. The king was reviewing military records from the dynasty's founding when he noticed a reference — oblique, almost parenthetical — to "the sealed artifact from the Royal Armory, as noted in the report of Yi Bang, which was ordered destroyed." A reference to a destroyed report, embedded in a document that had itself been partially redacted.
+He had discovered the discrepancy during one of his legendary late-night reading sessions. The king was reviewing military records from the dynasty's founding when he noticed a reference — oblique, almost parenthetical — to "the sealed artifact from the Royal Armory, as noted in the report of Ethan, which was ordered destroyed." A reference to a destroyed report, embedded in a document that had itself been partially redacted.
 
-Sejong did not believe in destroyed reports. He believed in reports that had been hidden, misfiled, or relocated by officials who lacked the courage to burn them completely. He dispatched his most trusted scholar, Jeong In, to find the truth.
+Sejong did not believe in destroyed reports. He believed in reports that had been hidden, misfiled, or relocated by officials who lacked the courage to burn them completely. He dispatched his most trusted scholar, Jane, to find the truth.
 
-Jeong In was forty-three years old, angular, perpetually exhausted, and possessed of the kind of mind that could hold seventeen trains of thought simultaneously and switch between them with the fluid ease of a chess player managing multiple boards. He had been instrumental in several of Sejong's greatest projects — the rain gauge, the astronomical instruments, the preliminary work on what would become *Hunminjeongeum*, the Korean alphabet — and the king valued him above any general.
+Jane was forty-three years old, angular, perpetually exhausted, and possessed of the kind of mind that could hold seventeen trains of thought simultaneously and switch between them with the fluid ease of a chess player managing multiple boards. He had been instrumental in several of Sejong's greatest projects — the rain gauge, the astronomical instruments, the preliminary work on what would become *Hunminjeongeum*, the Korean alphabet — and the king valued him above any general.
 
 "Find the sword," Sejong said. "Study the engravings. Report to me personally. Tell no one."
 
-Jeong In found the sword in three days. Studying the engravings took considerably longer.
+Jane found the sword in three days. Studying the engravings took considerably longer.
 
 ---
 
 ### *Seoul, Present Day*
 
-Su-hyun found the fragment in the Kyujanggak archives on a Friday.
+Sophie found the fragment in the Kyujanggak archives on a Friday.
 
 The Kyujanggak — the Royal Library, originally established in the Joseon era and now administered by Seoul National University — was one of the great repositories of Korean historical documents. Its holdings included thousands of volumes of official records, private papers, maps, and manuscripts that had survived five centuries of war, colonization, and institutional neglect.
 
 The fragment she found was not in the main collection. It was in a supplementary archive — a box of uncatalogued materials that had been transferred from a Japanese university library in the 1990s as part of a repatriation effort. The box contained seventy-three items, mostly administrative records of no particular significance. Item sixty-seven was a single sheet of mulberry paper, written in classical Chinese, bearing no date or author attribution.
 
-Su-hyun read it three times. Then she called Jin-woo.
+Sophie read it three times. Then she called Julian.
 
-"I found a passage from a deleted section of the *Sillok*. It's a secondary copy — someone transcribed it before the original was destroyed. Listen: 'In the fourteenth year of Sejong, the king ordered the scholar Jeong In to examine the demon sword from the Western Regions, which had been sealed in the Royal Armory since the founding of the dynasty. Jeong In studied the engravings for thirty days and reported that they comprised fragments of at least seven distinct writing systems, including ancient scripts of the western lands unknown to our scholars.'"
+"I found a passage from a deleted section of the *Sillok*. It's a secondary copy — someone transcribed it before the original was destroyed. Listen: 'In the fourteenth year of Sejong, the king ordered the scholar Jane to examine the demon sword from the Western Regions, which had been sealed in the Royal Armory since the founding of the dynasty. Jane studied the engravings for thirty days and reported that they comprised fragments of at least seven distinct writing systems, including ancient scripts of the western lands unknown to our scholars.'"
 
-"Seven writing systems," Jin-woo said.
+"Seven writing systems," Julian said.
 
-"Wait, there's more. 'Jeong In further reported that the engravings, when read in sequence, appeared to form a single continuous text — a record of the sword's passage through time, each inscription added by a different hand. The scholar became increasingly agitated during his examination, suffering hallucinations and hearing voices that spoke in unknown tongues. The king ordered the examination halted and the sword re-sealed.'"
+"Wait, there's more. 'Jane further reported that the engravings, when read in sequence, appeared to form a single continuous text — a record of the sword's passage through time, each inscription added by a different hand. The scholar became increasingly agitated during his examination, suffering hallucinations and hearing voices that spoke in unknown tongues. The king ordered the examination halted and the sword re-sealed.'"
 
 "Hallucinations. The same thing that happened to me."
 
 "There's a final line. 'The king wrote: Seal the demon sword. I will change this kingdom with letters, not with blades.'"
 
-A long silence on the line. Jin-woo could hear the ambient sounds of the Kyujanggak reading room — the whisper of turning pages, a distant cough, the hum of climate-control systems preserving documents that had survived centuries.
+A long silence on the line. Julian could hear the ambient sounds of the Kyujanggak reading room — the whisper of turning pages, a distant cough, the hum of climate-control systems preserving documents that had survived centuries.
 
 "The burn is getting worse," he said.
 
@@ -61,7 +61,7 @@ A long silence on the line. Jin-woo could hear the ambient sounds of the Kyujang
 
 "Past the wrist. Halfway to my elbow."
 
-"Jin-woo —"
+"Julian —"
 
 "I know."
 
@@ -69,7 +69,7 @@ A long silence on the line. Jin-woo could hear the ambient sounds of the Kyujang
 
 ### *Hanyang, Joseon Dynasty, 1443 CE*
 
-Jeong In's study of the blade lasted thirty-one days.
+Jane's study of the blade lasted thirty-one days.
 
 He worked in a small chamber adjoining the armory, furnished with a desk, a lamp, paper, and ink. The blade lay before him on a stand of felt-covered wood, and he examined it with the systematic precision of a man who had been trained to extract meaning from the most recalcitrant sources — crumbling stone inscriptions, weather-damaged texts, the cryptic notations of long-dead bureaucrats.
 
@@ -79,7 +79,7 @@ Seven writing systems — he identified them one by one, cross-referencing with 
 
 But the real discovery was structural. When he mapped the engravings in the order of their apparent age — using patination depth, incision technique, and the stylistic evolution of known scripts as chronological markers — they formed a sequence. Not a random accumulation of graffiti but a *text*. A continuous record, each inscription building on the last, each hand adding to a story that stretched back two thousand years.
 
-Jeong In began to read.
+Jane began to read.
 
 And the blade began to read *him*.
 
@@ -105,15 +105,15 @@ And the blade began to read *him*.
 
 The hallucinations started on the fourteenth day.
 
-Jeong In was transcribing the Sogdian inscription — the warning character, "This thing devours" — when the lamp in his study went out. Not flickered — *went out*, as if a hand had pinched the flame. In the sudden darkness, the engravings on the blade began to glow — a faint, phosphorescent blue-green, like bioluminescence on a midnight sea.
+Jane was transcribing the Sogdian inscription — the warning character, "This thing devours" — when the lamp in his study went out. Not flickered — *went out*, as if a hand had pinched the flame. In the sudden darkness, the engravings on the blade began to glow — a faint, phosphorescent blue-green, like bioluminescence on a midnight sea.
 
 And voices spoke.
 
 They spoke in languages he didn't know, couldn't know — tongues that had been dead for centuries before the Korean alphabet was born. But the *tone* was universal. Pain. Warning. Urgency. A chorus of ghosts whispering through the metal, each one trying to tell him something he couldn't quite grasp.
 
-Jeong In did what any good scholar would do: he picked up his brush and began taking notes.
+Jane did what any good scholar would do: he picked up his brush and began taking notes.
 
-By the twenty-first day, the hallucinations had escalated. Jeong In saw figures in the corners of his study — a man with burn-scarred arms (Dal-sol), a woman in military leather (Yeonhwa), a young warrior in a gold crown (Seol-rang) — and he heard their voices not as whispers but as conversations, overlapping and contradicting each other in the urgent, frustrated manner of witnesses at a trial where the verdict has already been decided.
+By the twenty-first day, the hallucinations had escalated. Jane saw figures in the corners of his study — a man with burn-scarred arms (Darius), a woman in military leather (Yeonhwa), a young warrior in a gold crown (Seraphina) — and he heard their voices not as whispers but as conversations, overlapping and contradicting each other in the urgent, frustrated manner of witnesses at a trial where the verdict has already been decided.
 
 He stopped sleeping. He stopped eating. His assistants reported to the king that the scholar had lost fifteen pounds and developed a tremor in his right hand that made his calligraphy illegible.
 
@@ -121,23 +121,23 @@ On the twenty-eighth day, Sejong came to the study himself.
 
 ---
 
-The king stood in the doorway and looked at his finest scholar. Jeong In sat at his desk, surrounded by a blizzard of notes — hundreds of sheets of paper covered in tiny, cramped writing, pinned to the walls, spread across the floor, layered three deep on the desk. His eyes were bloodshot. His robes hung loose on his diminished frame. The blade lay before him, and in the lamplight, its bronze core shimmered with that familiar, wrong light.
+The king stood in the doorway and looked at his finest scholar. Jane sat at his desk, surrounded by a blizzard of notes — hundreds of sheets of paper covered in tiny, cramped writing, pinned to the walls, spread across the floor, layered three deep on the desk. His eyes were bloodshot. His robes hung loose on his diminished frame. The blade lay before him, and in the lamplight, its bronze core shimmered with that familiar, wrong light.
 
-"Jeong In."
+"Jane."
 
-The scholar looked up. For a moment, the king saw something behind his scholar's eyes — a crowd of ghosts pressing against the windows of a burning house — and then Jeong In blinked, and it was gone, and he was just a tired man in a cold room.
+The scholar looked up. For a moment, the king saw something behind his scholar's eyes — a crowd of ghosts pressing against the windows of a burning house — and then Jane blinked, and it was gone, and he was just a tired man in a cold room.
 
 "Your Majesty. I have... findings."
 
 "Tell me."
 
-What followed was the most extraordinary briefing Sejong had ever received. Jeong In, speaking rapidly and with the manic precision of someone who knows he has limited time, laid out his conclusions:
+What followed was the most extraordinary briefing Sejong had ever received. Jane, speaking rapidly and with the manic precision of someone who knows he has limited time, laid out his conclusions:
 
-The blade was approximately two thousand years old. It had been forged in the late Gojoseon period using a technique that involved the infusion of human blood into the alloy matrix. This infusion had created something that Jeong In could only describe as a "vessel of accumulated consciousness" — the blade absorbed aspects of its owners' minds, stored them, and projected them onto subsequent holders.
+The blade was approximately two thousand years old. It had been forged in the late Gojoseon period using a technique that involved the infusion of human blood into the alloy matrix. This infusion had created something that Jane could only describe as a "vessel of accumulated consciousness" — the blade absorbed aspects of its owners' minds, stored them, and projected them onto subsequent holders.
 
 The engravings were a record of ownership — eighteen marks from eighteen individuals, each carved by the owner's hand. Seven writing systems reflected the blade's journey through multiple civilizations. The inscriptions, read chronologically, formed a narrative: the story of an object that consumed the essence of its owners, growing more powerful — and more dangerous — with each generation.
 
-"It is not a weapon," Jeong In concluded. "Or rather, it is a weapon in the way that fire is a weapon — not by intention but by nature. It amplifies what is already present in the holder. Ambition becomes megalomania. Courage becomes recklessness. Love becomes obsession. The blade does not create darkness. It *illuminates* it."
+"It is not a weapon," Jane concluded. "Or rather, it is a weapon in the way that fire is a weapon — not by intention but by nature. It amplifies what is already present in the holder. Ambition becomes megalomania. Courage becomes recklessness. Love becomes obsession. The blade does not create darkness. It *illuminates* it."
 
 Sejong listened in silence. Then he walked to the desk and picked up the blade.
 
@@ -147,9 +147,9 @@ Sejong set the blade down.
 
 "Seal it," he said. "I will change this kingdom with letters. The sword must sleep."
 
-He walked out of the study. At the door, he paused and looked back at Jeong In, who was already gathering his notes with trembling hands.
+He walked out of the study. At the door, he paused and looked back at Jane, who was already gathering his notes with trembling hands.
 
-"Destroy your research. All of it. And Jeong In — do not speak of this again."
+"Destroy your research. All of it. And Jane — do not speak of this again."
 
 "Your Majesty —"
 
@@ -159,7 +159,7 @@ He walked out of the study. At the door, he paused and looked back at Jeong In, 
 
 ### *Seoul, Present Day*
 
-Jin-woo re-read the archived passage Su-hyun had found.
+Julian re-read the archived passage Sophie had found.
 
 *Seal the demon sword. I will change this kingdom with letters, not with blades.*
 
@@ -192,8 +192,3 @@ The blade said nothing. But in the kitchen light, its bronze core shimmered.
 *End of Episode 8*
 
 ---
-
-> **Writing Progress Memo**
-> - EP01–EP08: ✅ COMPLETE
-> - Next: EP09 - The Night the Blood Flowers Fell (Joseon, Yeonsangun, 16th century)
-> - To resume: "칼의 기억 소설 이어서 써줘. EP01~08 완료됨. EP09부터."
