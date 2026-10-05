@@ -27,6 +27,11 @@ const Novels = () => {
               <div className="book">
                 <div className="book-cover">
                   <img src={novel.cover} alt={novel.title} />
+                  <div style={{ position: 'absolute', top: '15%', left: 0, right: 0, padding: '0 1rem', textAlign: 'center', zIndex: 10 }}>
+                    <h2 style={{ fontSize: '1.4rem', margin: 0, color: '#ffffff', textShadow: '0 2px 6px rgba(0,0,0,0.9), 0 0 20px rgba(0,0,0,0.8)', fontFamily: '"Times New Roman", serif', letterSpacing: '1px', lineHeight: '1.3' }}>
+                      {novel.title}
+                    </h2>
+                  </div>
                 </div>
               </div>
             </Link>
