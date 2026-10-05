@@ -1,5 +1,5 @@
 ﻿import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Settings, ChevronLeft, ChevronRight, Bookmark } from 'lucide-react';
+import { ArrowLeft, Settings, ChevronLeft, ChevronRight, Bookmark, Share2 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 // Define the maximum chapters for each novel to handle Next button

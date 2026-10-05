@@ -7,12 +7,12 @@ import cellDivisionImg from '../assets/cell_division.jpg';
 import atmosphericImg from '../assets/atmospheric_pressure.jpg';
 
 const novelsData = [
-  { id: 'atmospheric-pressure', title: 'Atmospheric Pressure', chapters: 20, desc: 'A psychological family thriller in a world where everyone is born with destructive physical power.', cover: atmosphericImg },
-  { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: echoesImg },
-  { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, desc: 'Deep space horror.', cover: isolationImg },
-  { id: 'the-day', title: 'The Day the Women Died', chapters: 20, desc: 'Post-apocalyptic survival.', cover: womenDiedImg },
-  { id: 'liquidation', title: 'Liquidation', chapters: 30, desc: 'A sci-fi action thriller about a futuristic enforcer.', cover: liquidationImg },
-  { id: 'cell-division', title: 'Cell Division and the Universe', chapters: 20, desc: 'A mind-bending sci-fi exploration of consciousness and cosmic evolution.', cover: cellDivisionImg },
+  { id: 'atmospheric-pressure', title: 'Atmospheric Pressure', chapters: 20, tags: ['Psychological', 'Thriller'], desc: 'A psychological family thriller in a world where everyone is born with destructive physical power.', cover: atmosphericImg },
+  { id: 'echoes-of-the-grid', title: 'Echoes of the Grid', chapters: 20, tags: ['Cyberpunk', 'Action'], desc: 'A cyberpunk thriller set in Neo-Seoul.', cover: echoesImg },
+  { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, tags: ['Deep Space', 'Horror'], desc: 'Deep space horror.', cover: isolationImg },
+  { id: 'the-day', title: 'The Day the Women Died', chapters: 20, tags: ['Post-Apocalyptic', 'Survival'], desc: 'Post-apocalyptic survival.', cover: womenDiedImg },
+  { id: 'liquidation', title: 'Liquidation', chapters: 30, tags: ['Sci-Fi', 'Thriller'], desc: 'A sci-fi action thriller about a futuristic enforcer.', cover: liquidationImg },
+  { id: 'cell-division', title: 'Cell Division and the Universe', chapters: 20, tags: ['Sci-Fi', 'Philosophical'], desc: 'A mind-bending sci-fi exploration of consciousness and cosmic evolution.', cover: cellDivisionImg },
 ];
 
 const Novels = () => {
@@ -33,11 +33,27 @@ const Novels = () => {
             
             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
               <h3 style={{ marginBottom: '0.5rem', fontSize: '1.2rem' }}>{novel.title}</h3>
+              <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '0.5rem' }}>
+                {novel.tags && novel.tags.map(tag => (
+                  <span key={tag} style={{ background: 'var(--bg-secondary)', color: 'var(--accent-cyan)', padding: '0.2rem 0.6rem', borderRadius: '12px', fontSize: '0.75rem', border: '1px solid rgba(0, 255, 204, 0.2)' }}>{tag}</span>
+                ))}
+              </div>
               <p style={{ color: 'var(--accent-magenta)', fontSize: '0.9rem', marginBottom: '0.5rem' }}>{novel.chapters} Chapters</p>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', maxWidth: '250px' }}>{novel.desc}</p>
             </div>
           </div>
         ))}
+      </div>
+
+      <hr style={{ margin: '4rem 0', border: 'none', borderTop: '1px solid rgba(255, 255, 255, 0.1)' }} />
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem', textAlign: 'center', background: 'var(--bg-secondary)', borderRadius: '16px' }}>
+        <h2 style={{ marginBottom: '1rem', color: 'var(--accent-cyan)' }}>About the Author | Bluemoon393</h2>
+        <p style={{ color: 'var(--text-secondary)', lineHeight: '1.8', fontSize: '1.1rem' }}>
+          Bluemoon393 is a visionary writer exploring the dark intersections of humanity, technology, and cosmic horror. 
+          From the neon-drenched alleys of neo-Seoul to the cold, unforgiving vacuum of deep space, 
+          Bluemoon393\'s works dive deep into dystopias, psychological breakdowns, and the unbreakable human spirit. 
+          Welcome to the multiverse of shadows.
+        </p>
       </div>
     </div>
   );
