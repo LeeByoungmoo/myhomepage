@@ -92,11 +92,11 @@ const Reader = () => {
   return (
     <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem 0', position: 'relative' }}>
       
-      {/* Floating Side Navigation (화면 좌우에서 따라다니는 이전/다음 화살표 버튼) */}
+      {/* Floating Side Navigation */}
       {currentChapter > 1 && (
         <button
           onClick={goPrev}
-          title={`이전 챕터 (${currentChapter - 1}화)`}
+          title={`Previous Chapter (Ch. ${currentChapter - 1})`}
           className="floating-nav-btn floating-prev"
         >
           <ChevronLeft size={24} />
@@ -106,14 +106,14 @@ const Reader = () => {
       {currentChapter < maxChapters && (
         <button
           onClick={goNext}
-          title={`다음 챕터 (${currentChapter + 1}화)`}
+          title={`Next Chapter (Ch. ${currentChapter + 1})`}
           className="floating-nav-btn floating-next"
         >
           <ChevronRight size={24} />
         </button>
       )}
 
-      {/* Reader Toolbar (최상단 고정 틀) */}
+      {/* Reader Toolbar (Sticky Header) */}
       <div className="reader-toolbar">
         {/* Left: Back button & Novel Title */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
@@ -131,7 +131,7 @@ const Reader = () => {
           <button
             onClick={goPrev}
             disabled={currentChapter <= 1}
-            title="이전 챕터"
+            title="Previous Chapter"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -147,17 +147,17 @@ const Reader = () => {
               transition: 'all 0.2s ease'
             }}
           >
-            <ChevronLeft size={16} /> 이전화
+            <ChevronLeft size={16} /> Prev
           </button>
 
           <span style={{ fontSize: '0.88rem', color: 'var(--accent-blue)', fontWeight: '700', padding: '0 0.5rem', minWidth: '60px', textAlign: 'center' }}>
-            {currentChapter} / {maxChapters}화
+            Ch. {currentChapter} / {maxChapters}
           </span>
 
           <button
             onClick={goNext}
             disabled={currentChapter >= maxChapters}
-            title="다음 챕터"
+            title="Next Chapter"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -174,7 +174,7 @@ const Reader = () => {
               transition: 'all 0.2s ease'
             }}
           >
-            다음화 <ChevronRight size={16} />
+            Next <ChevronRight size={16} />
           </button>
         </div>
 
@@ -182,23 +182,23 @@ const Reader = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <button 
             onClick={handleBookmark}
-            title="현재 위치 북마크 저장"
+            title="Save reading position"
             style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', color: 'var(--accent-blue)', padding: '0.4rem 0.8rem', borderRadius: '16px', cursor: 'pointer', fontWeight: '600', fontSize: '0.8rem' }}
           >
-            <Bookmark size={14} /> 저장
+            <Bookmark size={14} /> Bookmark
           </button>
           
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', background: 'rgba(255, 255, 255, 0.05)', padding: '0.2rem 0.5rem', borderRadius: '8px' }}>
             <button 
               onClick={() => setFontSize(f => Math.max(14, f - 2))}
               style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '0.9rem', padding: '0 0.3rem' }}
-              title="글자 크기 축소"
+              title="Decrease font size"
             >A-</button>
             <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{fontSize}</span>
             <button 
               onClick={() => setFontSize(f => Math.min(26, f + 2))}
               style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '0.9rem', padding: '0 0.3rem' }}
-              title="글자 크기 확대"
+              title="Increase font size"
             >A+</button>
           </div>
         </div>
@@ -206,7 +206,7 @@ const Reader = () => {
 
       {showToast && (
         <div className="bookmark-toast">
-          ?뵔 Bookmark saved! You can resume from here next time.
+          🔖 Bookmark saved! You can resume from here next time.
         </div>
       )}
 

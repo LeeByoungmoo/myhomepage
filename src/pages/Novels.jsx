@@ -33,11 +33,11 @@ const Novels = () => {
         <h1 style={{ fontSize: '2.5rem', marginBottom: '0.8rem' }}>Library</h1>
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: '1rem', background: 'rgba(255, 255, 255, 0.04)', padding: '0.5rem 1.2rem', borderRadius: '30px', border: '1px solid rgba(255, 255, 255, 0.1)', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
           <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-            <Eye size={15} color="var(--accent-blue)" /> 전체 누적 읽음 <strong style={{ color: '#ffffff' }}>{totalAllReads.toLocaleString()}</strong>회
+            <Eye size={15} color="var(--accent-blue)" /> Total Reads <strong style={{ color: '#ffffff' }}>{totalAllReads.toLocaleString()}</strong>
           </span>
           <span style={{ opacity: 0.3 }}>|</span>
           <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#00ffaa' }}>
-            <Calendar size={15} /> 오늘 방문 읽음 <strong>{totalTodayReads.toLocaleString()}</strong>회
+            <Calendar size={15} /> Today's Reads <strong>{totalTodayReads.toLocaleString()}</strong>
           </span>
         </div>
       </div>
@@ -72,14 +72,14 @@ const Novels = () => {
                 ))}
               </div>
               
-              {/* 소설별 누적 및 오늘 읽은 횟수 표시 */}
+              {/* Novel view statistics */}
               <div style={{ display: 'inline-flex', gap: '0.8rem', justifyContent: 'center', alignItems: 'center', margin: '0.4rem 0 0.6rem 0', fontSize: '0.8rem', background: 'rgba(255, 255, 255, 0.04)', padding: '0.25rem 0.8rem', borderRadius: '20px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#00f0ff' }}>
-                  <Eye size={13} /> 누적 {novel.stats.total.toLocaleString()}회
+                  <Eye size={13} /> {novel.stats.total.toLocaleString()} Reads
                 </span>
                 <span style={{ opacity: 0.3 }}>•</span>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#00ffaa' }}>
-                  <Calendar size={13} /> 오늘 {novel.stats.today.toLocaleString()}회
+                  <Calendar size={13} /> {novel.stats.today.toLocaleString()} Today
                 </span>
               </div>
 
