@@ -1,4 +1,5 @@
-Episode 4: The Escape to the Analog
+## Episode 4: The Escape to the Analog
+
 By midnight, the interstate was a graveyard, and we were the only thing moving through it.
 
 Julian kept the Bronco off the main highways, navigating a labyrinth of forgotten two-lane county roads through upstate New York. The darkness outside was absolute. The power grid had collapsed hours ago, not from a physical attack, but from a logical one. Every automated substation, every smart grid routing protocol, every digital failsafe had succumbed to the cosmic overwrite. The universe was duplicating its data, and human networks, unable to process the paradox of a 1 and a 0 existing in the exact same spatial coordinate simultaneously, simply committed suicide.
@@ -74,4 +75,3 @@ We tore out of the gas station, the Bronco’s tires kicking up a storm of grave
 "The 21st century just died," I said, staring at the physical dirt on my hands. "And the division has only just begun."
 
 Julian shifted into high gear, the engine roaring in agreement. We were heading west, into the dark, racing toward a hole in the ground to hide from the universe itself.
-

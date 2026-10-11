@@ -1,4 +1,5 @@
-Episode 11: The Stolen Telescope
+## Episode 11: The Stolen Telescope
+
 The interior of the modified Stryker M1126 Infantry Carrier smelled of burning diesel, stale sweat, and absolute terror.
 
 There were no screens, no digital readouts, no GPS displays. The DARPA engineers had gutted the vehicle’s nervous system, replacing the advanced avionics with mechanical gauges and physical relays. We were riding inside a thirty-ton analog brick, rumbling across the Black Rock Desert at exactly twenty-two miles per hour.
@@ -94,4 +95,3 @@ I stared at the massive canyon approaching at fifty miles per hour. My father ha
 "What does that mean for us?" Thorne demanded.
 
 "It means gravity in that canyon isn't pointing down anymore!" I yelled, bracing my arms against the bulkhead. "The overlapping spatial tension is creating a temporary dimensional bridge! Hit the gas, Miller! Drive straight into the void!"
-

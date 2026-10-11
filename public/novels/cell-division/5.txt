@@ -1,4 +1,5 @@
-Episode 5: Silas's Bunker
+## Episode 5: Silas's Bunker
+
 The Nevada desert didn't care about the end of the universe.
 
 It was seventy-two hours since we had fled Boston, leaving behind a trail of burning cities and shattered reality. The drive across the country had been a grueling marathon of survival. We navigated by old paper maps, siphoned gas from abandoned vehicles, and avoided population centers like they were radioactive. Cities were death traps—dense clusters of digital infrastructure where the universe’s copy errors were tearing space and time into jagged, bleeding ribbons.
@@ -84,4 +85,3 @@ It was a deep, rhythmic, terrifying groan. Like the sound of a submarine hull bu
 Silas stared at the radio, his hardened face paling slightly. "What in God's name is that?"
 
 "That," I whispered, staring at the physical needle of the magnetometer as it slowly, inexorably pegged itself to the far right, ignoring the Earth's natural magnetic north completely. "Is the sound of the universe tightening the noose. The invisible threads are in place. The pull has begun."
-

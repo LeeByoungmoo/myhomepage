@@ -1,4 +1,5 @@
-Episode 13: Cytoplasmic Bleed
+## Episode 13: Cytoplasmic Bleed
+
 Cytokinesis is a violent act. Textbooks describe cell division with neat, clean diagrams—a perfect circle pinching into a perfect figure-eight, before peacefully snapping into two identical spheres.
 
 But textbooks don't show the chaos of the cytoplasm. They don't show the fluid, the proteins, and the raw biological matter violently churning and boiling as it is aggressively squeezed into the ever-narrowing corridor of the cleavage furrow.
@@ -106,4 +107,3 @@ His face was covered in dried blood, his eyes wide in a frozen stare of terror. 
 Thorne looked at the dead Miller, then at the living Miller standing beside her. Her expression didn't change, but her grip on the revolver tightened until her knuckles were stark white.
 
 "The cytoplasm is mixing," Thorne said, her voice dropping to a deadly whisper. "The universes are bleeding into each other. If their convoy failed... we are walking into whatever killed them."
-

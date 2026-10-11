@@ -1,4 +1,5 @@
-Episode 15: How to Walk in a Blind Spot
+## Episode 15: How to Walk in a Blind Spot
+
 The Stryker was bleeding out. Not oil or diesel, but mass.
 
 We were tearing through the chimerical landscape at forty miles per hour, alternating violently between the humid redwood forest of the parallel Earth and the freezing, cracked hardpan of the Nevada desert. The dimensional overlap was flickering so fast it was creating a strobe effect, turning the world outside the viewing slit into a nauseating blur of green and grey.
@@ -114,4 +115,3 @@ Thorne walked up, her face a mask of cold calculation. She looked at Julian’s 
 I quickly bandaged Julian’s flickering hand, binding the terrifying visual glitch beneath layers of white cotton. He gritted his teeth, his eyes meeting mine. The fearless astrophysicist was gone; in his place was a man who had just touched the edge of the abyss.
 
 "We have to keep moving," I said, pulling him to his feet. I looked at the stopwatch. The ticks were accelerating. "The final stage is starting. The membrane is closing."
-

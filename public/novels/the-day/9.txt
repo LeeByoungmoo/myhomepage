@@ -1,5 +1,5 @@
-9
-The Curse of Digital Necromancy
+## Episode 9: The Curse of Digital Necromancy
+
 Jason turned on the laptop he had barely managed to keep charged with a solar panel. The *whirrr-* sound of the cooling fan thinly filled the silent living room of unit 802. What appeared on the screen was a black terminal window and dense Python code.
 
 Before the event, Jason's job was handling Voice of Customer (VOC) data at his company. It was work that analyzed variables like lead time from complaint to resolution, customer satisfaction (CSAT), and purchase frequency to find patterns. But the data he had spent several nights scraping together now was not customer complaints.

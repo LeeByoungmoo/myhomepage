@@ -106,6 +106,16 @@ const NovelContent = ({ rawText }) => {
       continue;
     }
 
+    if (line.startsWith('### ')) {
+      flushParagraph();
+      renderedElements.push(
+        <h4 key={`h3-${keyIndex++}`} className="novel-heading-3">
+          {parseInlineFormatting(line.replace(/^###\s+/, ''))}
+        </h4>
+      );
+      continue;
+    }
+
     // 4. 일반 본문 문장 (단락 버퍼에 추가)
     paragraphBuffer.push(line);
   }

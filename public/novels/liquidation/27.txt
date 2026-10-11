@@ -1,5 +1,4 @@
-27
-Black Swan and the Biological Margin Call
+## Episode 27: Black Swan and the Biological Margin Call
 
 In financial engineering, the uncontrollable disaster that reduces a perfectly designed portfolio to confetti in a single stroke is called a Black Swan. The geniuses of Wall Street went bankrupt because they failed to compute extreme outliers—subprime mortgages, pandemics.
 

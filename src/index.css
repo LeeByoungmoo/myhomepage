@@ -487,3 +487,14 @@ main {
   color: var(--accent-blue, #00f0ff);
   opacity: 0.9;
 }
+
+.novel-heading-3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 2.2rem 0 1rem 0;
+  text-align: left;
+  color: var(--accent-cyan, #00f0ff);
+  opacity: 0.85;
+  letter-spacing: 0.5px;
+}

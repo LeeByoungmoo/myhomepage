@@ -1,4 +1,5 @@
-Episode 9: Dr. Thorne’s Hunt
+## Episode 9: Dr. Thorne’s Hunt
+
 The sky over the Nevada desert didn't just break; it unzipped.
 
 Dr. Evelyn Thorne stood up through the open top hatch of the lead Stryker armored vehicle, gripping the heavy .50 caliber machine gun mount to steady herself. The lateral gravity that had practically thrown her against the steel hull a few minutes ago had vanished as abruptly as it began. But what replaced it was infinitely worse.
@@ -88,4 +89,3 @@ She paused, and the intercom hissed with dead air before her cold voice returned
 Silas didn't say a word. He just calmly began to untwist the safety wire on the C4 detonator.
 
 We were trapped. The universe was tearing itself apart above us, and the wolves were at the door.
-

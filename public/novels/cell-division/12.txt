@@ -1,4 +1,5 @@
-Episode 12: The Central Spindle
+## Episode 12: The Central Spindle
+
 Captain Miller did not have the biological conviction of a quantum biologist. He had the survival instinct of a twenty-year Army man. And every single instinct in his body was screaming at him to slam on the air brakes.
 
 The edge of the sheared canyon was rushing toward us at fifty miles per hour. It wasn't a natural cliff; it was a geometric absolute. One inch past the lip of the desert floor, the earth simply ceased to exist, giving way to a sheer drop into an impossible, static-filled void.
@@ -104,4 +105,3 @@ I turned to look at the survivors. Julian’s eyes were shadowed. He knew what w
 Thorne frowned. "Contamination?"
 
 "Cytoplasm mixing," I explained, looking at the flickering, static-laced horizon where the sun was beginning to set. "In biology, things get messy before the final cut. Out here... it means the two realities are going to bleed into each other one last time. We crossed the bridge, Dr. Thorne. But the ghost data... it’s about to get a lot more physical."
-

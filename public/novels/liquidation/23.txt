@@ -1,5 +1,4 @@
-23
-Biological Cog-Wheels and the Single Point of Failure
+## Episode 23: Biological Cog-Wheels and the Single Point of Failure
 
 The narrow gap in the exhaust duct—a tangle of rusted girders and moss—was the remnant of a bypass passage Chloe Bennett had left ten years ago when she designed the bunker's ventilation system.
 

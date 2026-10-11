@@ -6,11 +6,11 @@ import NovelContent from '../components/NovelContent';
 
 // Define the maximum chapters for each novel to handle Next button
 const NOVELS = {
-  'echoes-of-the-grid': { title: 'Echoes of the Grid', chapters: 20 },
+  'echoes-of-the-grid': { title: 'Memories of the Blade', chapters: 20 },
   'isolation': { title: 'Isolation: Predator in the Dark', chapters: 20 },
   'the-day': { title: 'The Day the Women Died', chapters: 20 },
   'liquidation': { title: 'Liquidation', chapters: 30 },
-  'atmospheric-pressure': { title: 'Atmospheric Pressure', chapters: 20 },
+  'atmospheric-pressure': { title: 'Pressure', chapters: 20 },
   'cell-division': { title: 'Cell Division and the Universe', chapters: 20 },
 };
 

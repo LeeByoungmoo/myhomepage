@@ -1,4 +1,5 @@
-Episode 10: The Elongation
+## Episode 10: The Elongation
+
 Silas’s calloused thumb hovered over the heavy brass plunger of the detonator. His jaw was set like a steel trap. He had spent his entire life preparing for the end of the world, and he wasn't about to let a DARPA bureaucrat steal his apocalypse.
 
 "Silas, take your hand off the detonator," I said, my voice eerily calm despite the adrenaline flooding my system.
@@ -78,4 +79,3 @@ Beyond her, the Nevada sky was a nightmare of fractured reality. The jagged, bli
 Thorne looked at me, her eyes as cold and unforgiving as the vacuum of space.
 
 "Welcome back to the surface, Dr. Finch," she said, holstering her weapon. "Now. Show me how to surf the apocalypse."
-

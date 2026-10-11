@@ -1,4 +1,5 @@
-Episode 8: Darwin's Curse
+## Episode 8: Darwin's Curse
+
 The human body is an arrogant machine. It assumes the ground will always be down.
 
 When the lateral gravity hit, it didn't just move objects; it broke our biology. My inner ear, a delicate gyroscope evolved over millions of years to understand Earth's pull, suddenly screamed that the concrete wall to my right was the new floor.
@@ -90,4 +91,3 @@ Julian looked at me, realizing exactly what phase we had just entered.
 Anaphase. The tearing.
 
 "We survived the blind spot," Julian breathed, looking up at the solid rock ceiling. "But God help the surface."
-
