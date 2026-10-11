@@ -1,6 +1,8 @@
-﻿import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Settings, ChevronLeft, ChevronRight, Bookmark, Share2 } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { recordNovelRead } from '../utils/stats';
+import NovelContent from '../components/NovelContent';
 
 // Define the maximum chapters for each novel to handle Next button
 const NOVELS = {
@@ -27,6 +29,11 @@ const Reader = () => {
   const maxChapters = novelInfo ? novelInfo.chapters : 0;
 
   useEffect(() => {
+    // Record read statistics
+    if (id) {
+      recordNovelRead(id);
+    }
+
     // Fetch chapter content
     setLoading(true);
     setError(null);
@@ -83,32 +90,117 @@ const Reader = () => {
   };
 
   return (
-    <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem 0' }}>
+    <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem 0', position: 'relative' }}>
       
-      {/* Reader Toolbar */}
+      {/* Floating Side Navigation (화면 좌우에서 따라다니는 이전/다음 화살표 버튼) */}
+      {currentChapter > 1 && (
+        <button
+          onClick={goPrev}
+          title={`이전 챕터 (${currentChapter - 1}화)`}
+          className="floating-nav-btn floating-prev"
+        >
+          <ChevronLeft size={24} />
+        </button>
+      )}
+
+      {currentChapter < maxChapters && (
+        <button
+          onClick={goNext}
+          title={`다음 챕터 (${currentChapter + 1}화)`}
+          className="floating-nav-btn floating-next"
+        >
+          <ChevronRight size={24} />
+        </button>
+      )}
+
+      {/* Reader Toolbar (최상단 고정 틀) */}
       <div className="reader-toolbar">
-        <Link to="/novels" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)' }}>
-          <ArrowLeft size={18} /> Back
-        </Link>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        {/* Left: Back button & Novel Title */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+          <Link to="/novels" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+            <ArrowLeft size={16} /> Library
+          </Link>
+          <span style={{ opacity: 0.3 }}>|</span>
+          <span style={{ fontSize: '0.9rem', color: '#ffffff', fontWeight: '600', maxWidth: '180px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+            {novelInfo ? novelInfo.title : 'Novel'}
+          </span>
+        </div>
+
+        {/* Center: Previous / Chapter Counter / Next */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <button
+            onClick={goPrev}
+            disabled={currentChapter <= 1}
+            title="이전 챕터"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.2rem',
+              padding: '0.4rem 0.75rem',
+              background: currentChapter > 1 ? 'rgba(255, 255, 255, 0.08)' : 'rgba(255, 255, 255, 0.02)',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              borderRadius: '8px',
+              color: currentChapter > 1 ? '#ffffff' : 'rgba(255, 255, 255, 0.25)',
+              cursor: currentChapter > 1 ? 'pointer' : 'not-allowed',
+              fontWeight: '600',
+              fontSize: '0.82rem',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            <ChevronLeft size={16} /> 이전화
+          </button>
+
+          <span style={{ fontSize: '0.88rem', color: 'var(--accent-blue)', fontWeight: '700', padding: '0 0.5rem', minWidth: '60px', textAlign: 'center' }}>
+            {currentChapter} / {maxChapters}화
+          </span>
+
+          <button
+            onClick={goNext}
+            disabled={currentChapter >= maxChapters}
+            title="다음 챕터"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.2rem',
+              padding: '0.4rem 0.75rem',
+              background: currentChapter < maxChapters ? 'var(--accent-blue)' : 'rgba(255, 255, 255, 0.02)',
+              border: 'none',
+              borderRadius: '8px',
+              color: currentChapter < maxChapters ? '#050508' : 'rgba(255, 255, 255, 0.25)',
+              cursor: currentChapter < maxChapters ? 'pointer' : 'not-allowed',
+              fontWeight: '700',
+              fontSize: '0.82rem',
+              boxShadow: currentChapter < maxChapters ? '0 0 12px rgba(0, 240, 255, 0.3)' : 'none',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            다음화 <ChevronRight size={16} />
+          </button>
+        </div>
+
+        {/* Right: Bookmark & Font Size */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
           <button 
             onClick={handleBookmark}
-            style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', color: 'var(--accent-blue)', padding: '0.5rem 1rem', borderRadius: '20px', cursor: 'pointer', fontWeight: '600' }}
+            title="현재 위치 북마크 저장"
+            style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'var(--glass-bg)', border: '1px solid var(--glass-border)', color: 'var(--accent-blue)', padding: '0.4rem 0.8rem', borderRadius: '16px', cursor: 'pointer', fontWeight: '600', fontSize: '0.8rem' }}
           >
-            <Bookmark size={16} /> Save Position
+            <Bookmark size={14} /> 저장
           </button>
           
-          <div style={{ width: '1px', height: '20px', background: 'var(--glass-border)', margin: '0 0.5rem' }}></div>
-          
-          <button 
-            onClick={() => setFontSize(f => Math.max(14, f - 2))}
-            style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '1.2rem' }}
-          >A-</button>
-          <button 
-            onClick={() => setFontSize(f => Math.min(26, f + 2))}
-            style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '1.2rem' }}
-          >A+</button>
-          <Settings size={18} style={{ color: 'var(--text-secondary)', marginLeft: '1rem' }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', background: 'rgba(255, 255, 255, 0.05)', padding: '0.2rem 0.5rem', borderRadius: '8px' }}>
+            <button 
+              onClick={() => setFontSize(f => Math.max(14, f - 2))}
+              style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '0.9rem', padding: '0 0.3rem' }}
+              title="글자 크기 축소"
+            >A-</button>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{fontSize}</span>
+            <button 
+              onClick={() => setFontSize(f => Math.min(26, f + 2))}
+              style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', fontSize: '0.9rem', padding: '0 0.3rem' }}
+              title="글자 크기 확대"
+            >A+</button>
+          </div>
         </div>
       </div>
 
@@ -130,9 +222,7 @@ const Reader = () => {
               {novelInfo ? novelInfo.title : 'Novel'} - Chapter {currentChapter}
             </h1>
             
-            <div style={{ whiteSpace: 'pre-wrap' }}>
-              {content}
-            </div>
+            <NovelContent rawText={content} />
             
             <div style={{ height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             </div>

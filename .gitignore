@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local private bots and diaries
+promo_bot/
+*.py
+디렉터_지시사항/
+비밀일기/
+프로젝트_메모리.md
+
