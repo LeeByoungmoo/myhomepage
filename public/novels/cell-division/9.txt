@@ -2,7 +2,7 @@
 
 The sky over the Nevada desert didn't just break; it unzipped.
 
-Dr. Evelyn Thorne stood up through the open top hatch of the lead Stryker armored vehicle, gripping the heavy .50 caliber machine gun mount to steady herself. The lateral gravity that had practically thrown her against the steel hull a few minutes ago had vanished as abruptly as it began. But what replaced it was infinitely worse.
+Dr. Eleanor Thorne stood up through the open top hatch of the lead Stryker armored vehicle, gripping the heavy .50 caliber machine gun mount to steady herself. The lateral gravity that had practically thrown her against the steel hull a few minutes ago had vanished as abruptly as it began. But what replaced it was infinitely worse.
 
 She pulled her tactical goggles down over her eyes, shielding them from the harsh, biting wind and the impossible geometry unfolding above.
 
@@ -12,15 +12,15 @@ Anaphase, she thought, remembering the frantic, half-mad debriefing from the bio
 
 "Doctor Thorne! Get back inside!"
 
-Captain Miller, the commander of the small, heavily modified convoy, grabbed her tactical vest and yanked her down into the troop compartment. He slammed the heavy steel hatch shut just as the air outside popped with a deafening, concussive boom.
+Captain Keller, the commander of the small, heavily modified convoy, grabbed her tactical vest and yanked her down into the troop compartment. He slammed the heavy steel hatch shut just as the air outside popped with a deafening, concussive boom.
 
 Thorne stumbled into the narrow aisle of the Stryker. The interior was lit by the dim red glow of analog emergency lights. All the digital screens—the GPS, the thermal imaging, the digitized comms—were dead, their LCD panels shattered by expanding batteries or fried by logic paradoxes. The driver was navigating through the desert using a mounted brass compass and a periscope.
 
-"We just lost Stryker Three," Miller yelled over the roar of the diesel engine, his face pale beneath his helmet. "It drove straight through a visual distortion. One second it was there, the next... it was just gone. Half a bumper was left cleanly sheared off, like it was cut by a laser."
+"We just lost Stryker Three," Keller yelled over the roar of the diesel engine, his face pale beneath his helmet. "It drove straight through a visual distortion. One second it was there, the next... it was just gone. Half a bumper was left cleanly sheared off, like it was cut by a laser."
 
 "It wasn't cut," Thorne said, her voice icy, devoid of the panic that was consuming the soldiers around her. "It was sorted. The spatial fabric is splitting into two distinct multiverses. Whatever crosses that fault line gets assigned to the new reality. We have to stay parallel to the tear."
 
-Evelyn Thorne was a pragmatist to her core. Before the universe decided to undergo cellular division, she was the Director of Advanced Threat Logistics at DARPA. Her job was to figure out how to keep the United States government functioning through nuclear wars, biological plagues, and asteroid strikes.
+Eleanor Thorne was a pragmatist to her core. Before the universe decided to undergo cellular division, she was the Director of Advanced Threat Logistics at DARPA. Her job was to figure out how to keep the United States government functioning through nuclear wars, biological plagues, and asteroid strikes.
 
 But no contingency plan had accounted for the universe running out of hard drive space.
 
@@ -30,7 +30,7 @@ Steel and concrete couldn't stop a dimensional tear. The only thing that could w
 
 Thorne reached into her tactical rig and pulled out a manila folder. Inside were two analog photographs. One was of Julian Mercer, a brilliant but reckless astrophysicist from the VLA. The other was of Dr. Arthur Finch, an MIT quantum biologist.
 
-When the digital apocalypse began, DARPA’s last functioning analog surveillance hub had intercepted a bizarre terrestrial radio transmission. Julian Mercer had downloaded the raw, uncorrupted telemetry of the 'Dark Flow' onto physical plotter paper and fled. And he had taken a biologist with him.
+When the digital apocalypse began, DARPA’s last functioning analog surveillance hub had intercepted a bizarre terrestrial radio transmission. Julian Mercer had downloaded the raw, uncorrupted telemetry of the Dark Flow onto physical plotter paper and fled. And he had taken a biologist with him.
 
 Thorne had put the pieces together. If the universe was undergoing a biological division, then the spatial tears wouldn't be random. They would follow a fractal, structural pattern. There would be 'safe zones'—microscopic nodes where the opposing tension perfectly canceled out.
 
@@ -48,7 +48,7 @@ The Stryker lurched violently as it hit a dry riverbed, the heavy suspension gro
 
 Thorne felt a cold, predatory satisfaction settle in her chest. They had survived the tear.
 
-"Surround the entrance," Thorne ordered Captain Miller. "Mount the analog breaching charges on that door. But do not blow it unless I give the word. I need the people inside alive. Their brains are the only things keeping humanity from being deleted."
+"Surround the entrance," Thorne ordered Captain Keller. "Mount the analog breaching charges on that door. But do not blow it unless I give the word. I need the people inside alive. Their brains are the only things keeping humanity from being deleted."
 
 Six hundred feet below the surface, the silence of the bunker was shattered by a sound that didn't belong to the cosmos.
 
@@ -66,7 +66,7 @@ Silas slowly walked over to a heavy, red alarm bell mounted on the wall. A small
 
 Before Silas could argue, a loud, distorted screech echoed through the bunker. It was coming from a dusty, wall-mounted intercom box near the elevator—a direct, hardwired analog line to the surface door.
 
-Crack... hiss... "Dr. Finch. Dr. Mercer. This is Dr. Evelyn Thorne with the Department of Defense."
+Crack... hiss... "Dr. Finch. Dr. Mercer. This is Dr. Eleanor Thorne with the Department of Defense."
 
 The voice was female, crisp, and entirely devoid of fear. It cut through the underground silence like a scalpel.
 

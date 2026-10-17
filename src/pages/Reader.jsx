@@ -218,9 +218,9 @@ const Reader = () => {
           <div style={{ textAlign: 'center', color: 'var(--accent-magenta)' }}>{error}</div>
         ) : (
           <>
-            <h1 style={{ fontSize: '2.5em', marginBottom: '2rem', textAlign: 'center' }}>
-              {novelInfo ? novelInfo.title : 'Novel'} - Chapter {currentChapter}
-            </h1>
+            <div style={{ fontSize: '0.95em', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--text-secondary)', marginBottom: '0.5rem', textAlign: 'center' }}>
+              {novelInfo ? novelInfo.title : 'Novel'}
+            </div>
             
             <NovelContent rawText={content} />
             

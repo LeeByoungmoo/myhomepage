@@ -116,8 +116,13 @@ const NovelContent = ({ rawText }) => {
       continue;
     }
 
-    // 4. 일반 본문 문장 (단락 버퍼에 추가)
-    paragraphBuffer.push(line);
+    // 4. 일반 본문 문장 (각 줄을 독립 단락으로 렌더링하여 단일 줄바꿈 대사 병합 방지)
+    flushParagraph();
+    renderedElements.push(
+      <p key={`p-${keyIndex++}`} className="novel-paragraph">
+        {parseInlineFormatting(line)}
+      </p>
+    );
   }
 
   // 마지막 남은 단락 출력

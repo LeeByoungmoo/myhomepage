@@ -22,7 +22,7 @@ Yuri looked at the blade lying on the scanning platform. In the fluorescent ligh
 
 "What *is* this thing?" Yuri asked.
 
-Sophie didn't answer. She was looking at Julian, who stood in the corner of the lab with his bandaged arm held close to his body and his eyes fixed on the blade with an expression she had learned to recognize: the expression of a man watching something he loves and fears in equal measure.
+Sophie didn't answer. She was looking at Adrian, who stood in the corner of the lab with his bandaged arm held close to his body and his eyes fixed on the blade with an expression she had learned to recognize: the expression of a man watching something he loves and fears in equal measure.
 
 ---
 
@@ -30,25 +30,25 @@ Sophie didn't answer. She was looking at Julian, who stood in the corner of the 
 
 The forge stood at the edge of the village like a sentinel — stone walls blackened by decades of smoke, a chimney that drew air with the steady pull of a lung, and inside, the constant, rhythmic heartbeat of hammer on anvil.
 
-Kim Charles — *Iron Hand* to the farmers who brought him their broken plowshares and dull scythes — was the fourth generation of his family to work this forge. His great-grandfather had built it during the reign of Jeongjo. His grandfather had expanded it. His father had refined its techniques to a level that made the village smithy the best in three counties. And Charles, who had inherited his father's hands and his mother's stubbornness, had turned it into something approaching art.
+Kim Benedict — *Iron Hand* to the farmers who brought him their broken plowshares and dull scythes — was the fourth generation of his family to work this forge. His great-grandfather had built it during the reign of Jeongjo. His grandfather had expanded it. His father had refined its techniques to a level that made the village smithy the best in three counties. And Benedict, who had inherited his father's hands and his mother's stubbornness, had turned it into something approaching art.
 
 He was forty-five years old, broad across the shoulders, permanently sunburned from the forge's heat, and possessed of the particular kind of silence that belongs to men who spend their days in conversation with fire and metal. He spoke rarely. When he did, the words were precise and functional, like the tools he made.
 
 The blade arrived on a summer afternoon, carried by a peddler who dealt in salvaged metal. The peddler had acquired it from the demolition of an old kiln site near Namhansanseong — the same kiln where, two centuries earlier, the potter Parker had sealed the blade in ceramic and buried it in the foundation. Time and neglect had done what Parker's desperate sealing could not: the kiln had collapsed, the foundation had shifted, and the ceramic casing had cracked open, exposing the blade to the air for the first time in two hundred years.
 
-The peddler saw scrap metal. Charles saw something else.
+The peddler saw scrap metal. Benedict saw something else.
 
 He held the blade up to the forge light and turned it slowly, examining the iron surface with the practiced eye of a man who could read metal the way a scholar reads text. The iron was old — very old — but the forging technique was crude, the crystalline structure visible under magnification suggesting a reforging over a much earlier core. And at the center of the blade, visible only at certain angles, a vein of bronze shimmered with a light that had no business existing in a piece of salvaged scrap.
 
-"Where did you get this?" Charles asked.
+"Where did you get this?" Benedict asked.
 
 "Old kiln site. South of the fortress."
 
-Charles ran his thumb along the flat of the blade. The engravings were there — tiny, precise, covering the surface like text on a page. He couldn't read them, but he could feel them: the depth of each cut, the confidence of each line, the accumulated weight of marks made by many different hands across what he instinctively understood was a span of time measured not in decades but in millennia.
+Benedict ran his thumb along the flat of the blade. The engravings were there — tiny, precise, covering the surface like text on a page. He couldn't read them, but he could feel them: the depth of each cut, the confidence of each line, the accumulated weight of marks made by many different hands across what he instinctively understood was a span of time measured not in decades but in millennia.
 
 "How much?"
 
-The peddler named a price. Charles paid it without haggling, which was so out of character that the peddler left the forge looking back over his shoulder, half-convinced he'd been cheated.
+The peddler named a price. Benedict paid it without haggling, which was so out of character that the peddler left the forge looking back over his shoulder, half-convinced he'd been cheated.
 
 ---
 
@@ -66,11 +66,11 @@ The peddler named a price. Charles paid it without haggling, which was so out of
 
 ---
 
-Charles studied the blade for three weeks before he touched it with a tool.
+Benedict studied the blade for three weeks before he touched it with a tool.
 
-He was not a hasty man. Haste in a forge was how you lost fingers, and Charles had all ten of his, which at forty-five made him either very careful or very lucky. He measured the blade's dimensions. He tested its hardness with a file. He heated a small section of the iron surface — carefully, gradually — and watched how the metal responded to temperature, looking for the telltale signs of alloy composition that would guide his approach.
+He was not a hasty man. Haste in a forge was how you lost fingers, and Benedict had all ten of his, which at forty-five made him either very careful or very lucky. He measured the blade's dimensions. He tested its hardness with a file. He heated a small section of the iron surface — carefully, gradually — and watched how the metal responded to temperature, looking for the telltale signs of alloy composition that would guide his approach.
 
-The iron was unremarkable. Standard bloomery iron, consistent with medieval Korean or Central Asian production. But the bronze core was something else entirely. It resisted his file. It resisted his acid tests. When he heated it, it absorbed thermal energy without expanding — a physical impossibility that Charles noted with the calm professionalism of a man who had been working with metal long enough to know that metal occasionally did things it wasn't supposed to.
+The iron was unremarkable. Standard bloomery iron, consistent with medieval Korean or Central Asian production. But the bronze core was something else entirely. It resisted his file. It resisted his acid tests. When he heated it, it absorbed thermal energy without expanding — a physical impossibility that Benedict noted with the calm professionalism of a man who had been working with metal long enough to know that metal occasionally did things it wasn't supposed to.
 
 On the twenty-first day, a visitor arrived at the forge.
 
@@ -78,13 +78,13 @@ On the twenty-first day, a visitor arrived at the forge.
 
 Tanaka Hiroshi was a Japanese arms dealer — though he preferred the term "military procurement consultant" — who had been operating in the Korean market since the opening of Busan to Japanese trade in 1876. He was fifty years old, immaculately dressed in Western-style clothing, and possessed of the particular blend of charm and menace that characterized the new breed of Japanese businessman-adventurers who were probing Joseon's weakening defenses for commercial opportunities.
 
-He had heard about the blade from the same peddler who had sold it to Charles. The peddler, having been paid generously once, saw no reason not to sell the information again.
+He had heard about the blade from the same peddler who had sold it to Benedict. The peddler, having been paid generously once, saw no reason not to sell the information again.
 
 Tanaka entered the forge with two assistants — young men in dark suits who carried no visible weapons but moved with the trained awareness of men who had them close at hand.
 
 "I understand you have an unusual sword," Tanaka said in fluent Korean. His accent was minimal — the product of twenty years of immersion — but his vowels still carried the clipped precision of Japanese phonology.
 
-Charles looked up from his anvil. He was in the middle of repairing a plow blade, and the interruption did not improve his mood.
+Benedict looked up from his anvil. He was in the middle of repairing a plow blade, and the interruption did not improve his mood.
 
 "I have many swords."
 
@@ -94,7 +94,7 @@ Charles looked up from his anvil. He was in the middle of repairing a plow blade
 
 "Everything is for sale, Mr. Kim. The question is merely price."
 
-Charles set down his hammer. He was not a large man — years at the forge had made him compact rather than massive — but the authority of his stillness filled the small space of the smithy the way heat filled the air around the forge.
+Benedict set down his hammer. He was not a large man — years at the forge had made him compact rather than massive — but the authority of his stillness filled the small space of the smithy the way heat filled the air around the forge.
 
 "The blade is Korean," he said. "It stays in Korea."
 
@@ -104,13 +104,13 @@ Charles set down his hammer. He was not a large man — years at the forge had m
 
 "It's getting worse."
 
-Julian sat in the emergency room at Severance Hospital, his left arm unwrapped for the first time in days. The attending physician — a dermatologist summoned from another floor because the ER staff couldn't identify the condition — examined the discoloration with undisguised fascination.
+Adrian sat in the emergency room at Severance Hospital, his left arm unwrapped for the first time in days. The attending physician — a dermatologist summoned from another floor because the ER staff couldn't identify the condition — examined the discoloration with undisguised fascination.
 
 "This isn't a burn," the dermatologist said. "I mean — the tissue damage pattern is consistent with a thermal injury, but the cellular pathology is wrong. Burns destroy tissue. This is — it's more like the tissue is being *replaced*. The skin cells are being restructured at a molecular level."
 
 "Replaced with what?"
 
-The dermatologist looked at his biopsy slides again. Looked up. Looked at Julian with the expression of a physician who has just encountered something that his training did not prepare him for.
+The dermatologist looked at his biopsy slides again. Looked up. Looked at Adrian with the expression of a physician who has just encountered something that his training did not prepare him for.
 
 "I don't know. The cellular structure doesn't match any human tissue type I've seen. It's — it's almost metallic. The cells are incorporating trace metals — iron, copper, tin — into their structure. As if the tissue is being slowly converted into—"
 
@@ -124,19 +124,19 @@ The dermatologist looked at his biopsy slides again. Looked up. Looked at Julian
 
 Tanaka returned three more times.
 
-Each visit was more aggressive than the last. The first was polite inquiry. The second was a generous offer — enough silver to buy Charles's forge ten times over. The third was an implied threat, delivered with the smooth indirection of a man who understood that direct threats were gauche but wanted the subtext to be unmistakable.
+Each visit was more aggressive than the last. The first was polite inquiry. The second was a generous offer — enough silver to buy Benedict's forge ten times over. The third was an implied threat, delivered with the smooth indirection of a man who understood that direct threats were gauche but wanted the subtext to be unmistakable.
 
 "The political situation in Korea is... evolving," Tanaka said on his third visit. "The relationship between our nations is entering a new phase. Men who cooperate with progress tend to prosper. Men who resist..." He let the silence complete the sentence.
 
-Charles said nothing. He was working — reforging a set of kitchen knives for the village headman's wife — and the rhythm of his hammer on the anvil was his answer.
+Benedict said nothing. He was working — reforging a set of kitchen knives for the village headman's wife — and the rhythm of his hammer on the anvil was his answer.
 
 On the fourth visit, Tanaka brought six men. They were not businessmen.
 
-Charles met them in the yard of the forge. The evening light was long and golden, casting the smithy's shadow across the packed earth like a sundial. The six men spread out in a semicircle. Tanaka stood at the center, his Western suit incongruous against the backdrop of the traditional forge.
+Benedict met them in the yard of the forge. The evening light was long and golden, casting the smithy's shadow across the packed earth like a sundial. The six men spread out in a semicircle. Tanaka stood at the center, his Western suit incongruous against the backdrop of the traditional forge.
 
 "Last opportunity, Mr. Kim."
 
-Charles looked at the six men. Then at Tanaka. Then he turned and walked into the forge.
+Benedict looked at the six men. Then at Tanaka. Then he turned and walked into the forge.
 
 He emerged thirty seconds later with the ancient blade in his hand.
 
@@ -164,19 +164,19 @@ Something the blade did not expect.
 
 The blade sang.
 
-There was no other word for it. As the temperature in the forge climbed past the melting point of iron — past the point where any normal blade would have softened and sagged and surrendered its shape — the bronze core of the ancient sword began to emit a sound. Not a physical sound — not a vibration carried through air — but a *resonance* that Charles felt in his chest and his spine and the marrow of his bones. A clear, high note, like a bell struck in a cathedral, sustained and unwavering.
+There was no other word for it. As the temperature in the forge climbed past the melting point of iron — past the point where any normal blade would have softened and sagged and surrendered its shape — the bronze core of the ancient sword began to emit a sound. Not a physical sound — not a vibration carried through air — but a *resonance* that Benedict felt in his chest and his spine and the marrow of his bones. A clear, high note, like a bell struck in a cathedral, sustained and unwavering.
 
 Tanaka's men stopped.
 
 The sound was audible to everyone in the forge yard — not as hearing but as sensation, a pressure behind the eyes and between the ribs that made breathing difficult and thought impossible. The six hired men looked at each other. Two of them took a step backward. A third crossed himself — a Christian gesture, recently imported, incongruous on a Japanese mercenary.
 
-Charles held the blade in the fire with tongs, his face inches from the inferno, his eyes streaming tears that evaporated before they reached his jaw. He was reading the metal the way his father had taught him — watching the color changes, the surface patterns, the subtle tells that revealed an alloy's inner architecture the way a physician's examination reveals the body beneath the skin.
+Benedict held the blade in the fire with tongs, his face inches from the inferno, his eyes streaming tears that evaporated before they reached his jaw. He was reading the metal the way his father had taught him — watching the color changes, the surface patterns, the subtle tells that revealed an alloy's inner architecture the way a physician's examination reveals the body beneath the skin.
 
 And what he read terrified him.
 
 The bronze core was not bronze. Or rather, it was bronze — copper and tin in the classic ratio — but it was also something else. Something that existed in the spaces between the metal atoms, woven into the crystalline lattice like thread through fabric. Something organic. Something that pulsed with the fire's heat and responded to the forge's rhythm the way a heart responds to exertion.
 
-"It's alive," Charles whispered.
+"It's alive," Benedict whispered.
 
 He pulled the blade from the fire. The metal cooled instantly — far too fast, impossibly fast, as if the blade were absorbing its own heat and storing it somewhere that physics could not reach. The singing stopped. The pressure behind the eyes eased. The forge yard was quiet.
 
@@ -184,7 +184,7 @@ Tanaka stared at the blade. His face had gone pale. The composure that was his p
 
 "What is that?" he whispered.
 
-Charles didn't answer. He wrapped the blade in leather, then in canvas, then in a layer of wet clay that he had prepared earlier. He sealed the package with wire and wax.
+Benedict didn't answer. He wrapped the blade in leather, then in canvas, then in a layer of wet clay that he had prepared earlier. He sealed the package with wire and wax.
 
 "Get out of my forge," he said to Tanaka.
 
@@ -202,7 +202,7 @@ Tanaka left.
 
 ### *Seoul, Present Day*
 
-"The cells are incorporating metal," Julian said.
+"The cells are incorporating metal," Adrian said.
 
 He was in Sophie's office, sitting on the edge of her desk because the chairs were buried under books. The dermatologist's report was in his lap. His left arm was re-bandaged, but the bandage couldn't hide the discoloration that had crept past his elbow and was now approaching his shoulder.
 
@@ -214,7 +214,7 @@ Sophie stared at him. Then at the bandage. Then at the blade, which sat on her d
 
 The words hung in the air between them. Outside the window, the K University campus was golden with autumn. Students crossed the quadrangle in groups, laughing, carrying coffee, performing the ancient theater of youth. Inside the office, two people who had spent weeks studying an artifact that defied explanation sat in silence and contemplated the possibility that the artifact was studying them back.
 
-"I need to tell you something," Julian said.
+"I need to tell you something," Adrian said.
 
 "What?"
 
@@ -222,9 +222,9 @@ The words hung in the air between them. Outside the window, the K University cam
 
 Sophie went very still.
 
-"He's in the dreams. Not as a memory — as a presence. He's standing in a room I don't recognize, holding the blade, and he's—" Julian's voice cracked. "He's talking to me. He's trying to tell me something. But I can't hear the words."
+"He's in the dreams. Not as a memory — as a presence. He's standing in a room I don't recognize, holding the blade, and he's—" Adrian's voice cracked. "He's talking to me. He's trying to tell me something. But I can't hear the words."
 
-"Julian—"
+"Adrian—"
 
 "I think the blade knows where my father is. I think it's been trying to show me since the beginning. And I think —" He looked at the bandaged arm. "I think the price of finding out is becoming part of it."
 
@@ -234,11 +234,11 @@ Sophie went very still.
 
 *The first to do so since Darius. The first to look at me with a craftsman's eyes and see not a weapon but a *material* — a substance with properties, a structure with secrets, a composition that tells a story if you know how to read it.*
 
-*He read me. In the white heat of his forge, with the Japanese at his door and the world changing around him, Kim Charles held me in the fire and read me like a book written in the language of metal.*
+*He read me. In the white heat of his forge, with the Japanese at his door and the world changing around him, Kim Benedict held me in the fire and read me like a book written in the language of metal.*
 
 *What he read, he never told anyone. He sealed me and hid me and lived out his days as a village blacksmith, and when he died, his son found me in the cellar and passed me on, as Parker's son had passed me on, as every keeper in the chain had passed me on — hand to hand, generation to generation, the relay of witnesses that has carried me through twenty-three centuries.*
 
-*But Charles carved his mark into me before he sealed me. Not a word. Not a symbol. A temperature — the number 1,084, etched in Korean numerals.*
+*But Benedict carved his mark into me before he sealed me. Not a word. Not a symbol. A temperature — the number 1,084, etched in Korean numerals.*
 
 *The melting point of copper.*
 

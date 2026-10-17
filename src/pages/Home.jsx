@@ -10,8 +10,8 @@ const Home = () => {
             <div className="icon-wrapper">
               <BookOpen size={48} strokeWidth={1.5} />
             </div>
-            <h2>Cyber Fiction</h2>
-            <p>Immerse yourself in dark, thrilling narratives and dystopian futures.</p>
+            <h2>Original Fiction</h2>
+            <p>Immerse yourself in psychological thrillers, dark satire, hard sci-fi, and historical fantasy.</p>
             <span className="action-btn">Read Novels <ArrowRight size={20} /></span>
           </div>
           <div className="panel-bg overlay-magenta"></div>

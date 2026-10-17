@@ -1,8 +1,8 @@
 ## Episode 14: Doppelgänger
 
-Captain Miller didn't scream. He didn't panic. He just stared down at his own dead, blood-streaked face inside the wrecked Stryker, his mind completely failing to process the ontological horror of the moment.
+Captain Keller didn't scream. He didn't panic. He just stared down at his own dead, blood-streaked face inside the wrecked Stryker, his mind completely failing to process the ontological horror of the moment.
 
-Dr. Evelyn Thorne, however, was already moving. She holstered her revolver and pulled a small tactical flashlight from her vest. She leaned into the crushed cabin, ignoring the flickering, glitching edges of the parallel vehicle, and focused her beam on the dead Miller’s chest.
+Dr. Eleanor Thorne, however, was already moving. She holstered her revolver and pulled a small tactical flashlight from her vest. She leaned into the crushed cabin, ignoring the flickering, glitching edges of the parallel vehicle, and focused her beam on the dead Keller’s chest.
 
 "He didn't die from the impact," Thorne said, her voice cutting through the humid forest air with surgical precision. She pointed to two neat, dark holes in the center of the dead man’s Kevlar plate. "Double tap, center mass. 5.56 millimeter. Standard-issue NATO rounds."
 
@@ -26,7 +26,7 @@ CRACK!
 
 The sharp, supersonic snap of a high-velocity rifle round echoed through the trees. Sparks showered from the hull of our Stryker as the bullet ricocheted inches from my head.
 
-"Contact!" Miller roared, his paralysis breaking. He tackled Chloe to the muddy ground, raising his M4.
+"Contact!" Keller roared, his paralysis breaking. He tackled Chloe to the muddy ground, raising his M4.
 
 "Defensive perimeter!" Thorne barked, dropping behind the massive tires of Silas's Stryker. "Return fire!"
 
@@ -38,7 +38,7 @@ From the dense fog, muzzle flashes strobed like erratic lightning. The air was f
 
 It was amplified by a tactical megaphone. But it wasn't a stranger's voice.
 
-It was Dr. Evelyn Thorne’s voice.
+It was Dr. Eleanor Thorne’s voice.
 
 The gunfire slowly ground to a halt, leaving only the ringing in our ears and the hiss of ruptured radiators. Out of the thick, emerald mist, a figure stepped forward.
 
@@ -48,7 +48,7 @@ It was Thorne. The B-side Thorne.
 
 Behind her, emerging from the shadows of the giant redwoods, were half a dozen surviving soldiers from the parallel convoy. They looked battered, desperate, and terrifyingly familiar.
 
-"Evelyn," the parallel Thorne called out, her voice rasping with exhaustion. She kept her rifle lowered, but her good hand rested near the trigger. "You know the physics. You know the math. The dimensional tear is closing behind us, and the safe zone is too narrow for two sets of data."
+"Eleanor," the parallel Thorne called out, her voice rasping with exhaustion. She kept her rifle lowered, but her good hand rested near the trigger. "You know the physics. You know the math. The dimensional tear is closing behind us, and the safe zone is too narrow for two sets of data."
 
 Our Thorne stood up slowly from behind the Stryker, her rifle leveled squarely at her doppelgänger's chest. "You hesitated at the bridge, didn't you? Your driver hesitated. That’s why your convoy crashed. Your timeline is the corrupted one."
 
@@ -56,7 +56,7 @@ Parallel Thorne offered a grim, bloody smile. "We’re the anomaly. I know. Our 
 
 "You're a glitch," our Thorne said, her voice devoid of any empathy. "You’re a biological redundancy trying to survive a system wipe."
 
-"I am you, Evelyn," the parallel Thorne said, taking a slow step forward. "I have your memories. I have your pragmatism. I calculated the exact same survival odds you did. You know I won't hesitate to kill you to save my convoy."
+"I am you, Eleanor," the parallel Thorne said, taking a slow step forward. "I have your memories. I have your pragmatism. I calculated the exact same survival odds you did. You know I won't hesitate to kill you to save my convoy."
 
 Our Thorne didn't blink. She didn't lower her weapon.
 
@@ -78,7 +78,7 @@ The forest erupted. Without their commander, the desperate parallel soldiers ope
 
 I scrambled on my hands and knees through the mud, dragging Chloe toward the rear hatch of our Stryker. Julian was right behind me. Bullets were sparking off the armor, filling the air with the smell of vaporized lead.
 
-We threw ourselves into the dark cabin. Miller bounded in a second later, grabbing the radio. "Driver, punch it! Run them over if you have to! Move!"
+We threw ourselves into the dark cabin. Keller bounded in a second later, grabbing the radio. "Driver, punch it! Run them over if you have to! Move!"
 
 The diesel engine screamed. The heavy Stryker lurched forward, its massive tires tearing through the mud and crushing the giant ferns. I looked through the viewing slit as we accelerated.
 

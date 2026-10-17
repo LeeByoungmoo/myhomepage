@@ -13,9 +13,9 @@
 | 5 | Liquidation (30 eps) | step05_liquidation.md | ✅ |
 | 6 | Echoes of the Grid (20 eps) | step06_echoes.md | ✅ |
 | 7 | Cell Division and the Universe (20 eps) | step07_cell_division.md | ✅ |
-| 8 | Site UI text (titles, synopses, author bio, tags, reader UI) | step08_site_ui.md | ⬜ |
-| 9 | Cross-novel issues (names, tone, consistency) + priority matrix | step09_cross.md | ⬜ |
-| 10 | Final consolidated report | FINAL_REPORT.md | ⬜ |
+| 8 | Site UI text (titles, synopses, author bio, tags, reader UI) | step08_site_ui.md | ✅ |
+| 9 | Cross-novel issues (names, tone, consistency) + priority matrix | step09_cross.md | ✅ |
+| 10 | Final consolidated report | FINAL_REPORT.md | ✅ |
 
 ## Review checklist (per novel)
 - Symbols: Korean quotes 「」『』, ‘…’ misuse, `~`, `…` vs `...`, full-width chars, em-dash usage, `ㅋ`, emoji
