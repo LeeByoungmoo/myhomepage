@@ -9,7 +9,7 @@ import atmosphericImg from '../assets/atmospheric_pressure.jpg';
 import { getNovelStats } from '../utils/stats';
 
 const novelsData = [
-  { id: 'atmospheric-pressure', title: 'Pressure', chapters: 20, tags: ['Psychological Thriller', 'Supernatural'], desc: 'Mornings in the Miller house begin by weighing the air. A tense psychological thriller in a world where emotion carries lethal physical weight.', cover: atmosphericImg },
+  { id: 'atmospheric-pressure', title: 'Pressure', chapters: 20, tags: ['Psychological Thriller', 'Supernatural'], desc: 'Mornings in the Han house begin by weighing the air. A tense psychological thriller in a world where emotion carries lethal physical weight.', cover: atmosphericImg },
   { id: 'echoes-of-the-grid', title: 'Memories of the Blade', chapters: 20, tags: ['Historical Fantasy', 'Action', 'Literary'], desc: 'An ancient bronze blade carries the memories and spirits of its past wielders across two thousand years of Korean and Eurasian history.', cover: echoesImg },
   { id: 'isolation', title: 'Isolation: Predator in the Dark', chapters: 20, tags: ['Psychological Thriller', 'Death Game'], desc: 'Four strangers wake in a pitch-black stone ruin beneath the city subway. One of them is a predator — and she is not the only hunter in the dark.', cover: isolationImg },
   { id: 'the-day', title: 'The Day the Women Died', chapters: 20, tags: ['Post-Apocalyptic', 'Survival', 'Mystery'], desc: 'One morning, every woman on Earth ceases to breathe. In a world plunged into sudden collapse, the survivors must confront what remains.', cover: womenDiedImg },

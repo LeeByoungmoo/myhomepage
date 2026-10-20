@@ -1,0 +1,230 @@
+## 1. Article errors (a + vowel-sound word)
+- liquidation/9.txt: …sperate face for a long moment, then erupted into a obscene peal of laughter.  "BAHAHAHA! I'm kiddi…
+- liquidation/15.txt: …om each other's fists. Yet their eyes burned with a obscene need to confirm whether their log was b…
+- liquidation/18.txt: …t same hour, the camp's morning was seething with a obscene vitality. Through the night, the elderl…
+- liquidation/24.txt: …velocity. The turbine's RPM spiked violently, and a obscene vibration began radiating through the e…
+- liquidation/24.txt: …f power it was never designed to hold and emitted a obscene, building roar. Luke scrambled backward…
+- liquidation/25.txt: …g even to twitch. When he forced himself upright, a obscene wet rupture sounded from his knee joint…
+- the-day/3.txt: …ad disappeared, sanitary pads had been reborn for a uncanny purpose. Men used them as combat boot i…
+- the-day/7.txt: …convulsions seemed not out of pain, but closer to a uncanny nervous reflex created by the compulsio…
+- the-day/14.txt: …ed, sent no warning signals (pain) to the brain.  A uncanny self-harm party of corpses unable to su…
+- the-day/15.txt: …ll, chilling laugh. The laugh gradually grew into a uncanny guffaw that echoed through the entire l…
+- the-day/16.txt: …ed slightly, the scene in the lobby began to emit a uncanny dissonance. Clearly, more than half of …
+- the-day/18.txt: …tely lost their focus. Covered in tears and snot, a uncanny metallic sound, like a beast being slau…
+
+## 2. Changed lines by category
+
+### merged_tag (46)
+- **atmospheric-pressure/1.txt**
+  - OLD: "Mom."  ⏎ Ian whispered. Sarah flinched and whipped around. 
+  - NEW: "Mom," Ian whispered. Helen flinched and whipped around. 
+- **atmospheric-pressure/1.txt**
+  - OLD: "You're loud."  ⏎ Emma snapped, annoyance dripping from her voice. 
+  - NEW: "You're loud," Emma snapped, annoyance dripping from her voice. 
+- **atmospheric-pressure/1.txt**
+  - OLD: "They want to keep up the illusion of the 'nuclear family'."  ⏎ Ian replied dryly. 
+  - NEW: "They want to keep up the illusion of the nuclear family," Ian replied dryly. 
+- **atmospheric-pressure/5.txt**
+  - OLD: "Hey, Null. What's wrong with your face? You look like a zombie that hasn't slept in days." ⏎ Leo asked, his eyes filled with concern. 
+  - NEW: "Hey, Null. What's wrong with your face? You look like a zombie that hasn't slept in days," Leo asked, his eyes filled with concern. 
+- **atmospheric-pressure/5.txt**
+  - OLD: "If you want to hide it, learn how to mask your Pressure. The air around you is so unstable it feels like it's going to explode at any second." ⏎ She whispered those words and turned back to her seat. Ian swallowed hard. His fingertips were trembling slightly. 
+  - NEW: "If you want to hide it, learn how to mask your Pressure. The air around you is so unstable it feels like it's going to explode at any second," She whispered those words and turned back to her seat. Ian swallowed hard. His fingertips were trembling slightly. 
+- **atmospheric-pressure/6.txt**
+  - OLD: "Holy shit..." ⏎ Leo muttered blankly, slumped on the floor. The multi-ton slab of concrete that was supposed to crush his skull was now rising toward the sky, as if caught in a reverse-gravity field. It wasn't just the concrete. Shards of broken glass, bent rebar, school desks, and chairs all drift
+  - NEW: "Holy shit..," Leo muttered blankly, slumped on the floor. The multi-ton slab of concrete that was supposed to crush his skull was now rising toward the sky, as if caught in a reverse-gravity field. It wasn't just the concrete. Shards of broken glass, bent rebar, school desks, and chairs all drifted
+- **atmospheric-pressure/6.txt**
+  - OLD: "Level 10."  ⏎ Vance muttered in a hoarse whisper. 
+  - NEW: "Level 10," Vance muttered in a hoarse whisper. 
+- **atmospheric-pressure/7.txt**
+  - OLD: "I'm home." ⏎ Ian said, his lips dry and cracked. 
+  - NEW: "I'm home," Ian said, his lips dry and cracked. 
+- **atmospheric-pressure/8.txt**
+  - OLD: "So, what are you going to do with my son?"  ⏎ David asked, his voice hoarse. 
+  - NEW: "So, what are you going to do with my son?" Robert asked, his voice hoarse. 
+- **atmospheric-pressure/8.txt**
+  - OLD: "I'll think about it."  ⏎ Ian replied curtly. 
+  - NEW: "I'll think about it," Ian replied curtly. 
+- **atmospheric-pressure/8.txt**
+  - OLD: "You got anything else to say to me? Like how I smell like burning, or how I'm a walking bomb?" ⏎ Ian snapped back, his tone defensive. 
+  - NEW: "You got anything else to say to me? Like how I smell like burning, or how I'm a walking bomb?" Ian snapped back, his tone defensive. 
+- **atmospheric-pressure/8.txt**
+  - OLD: "Level 7. That's my real classification." ⏎ She said it as if commenting on the weather. 
+  - NEW: "Level 7. That's my real classification," She said it as if commenting on the weather. 
+- **atmospheric-pressure/9.txt**
+  - OLD: "Don't touch it." ⏎ Ian said. His voice carried absolutely zero Pressure, zero intimidation. 
+  - NEW: "Don't touch it," Ian said. His voice carried absolutely zero Pressure, zero intimidation. 
+- **atmospheric-pressure/10.txt**
+  - OLD: "Emma." ⏎ Ian called out quietly. 
+  - NEW: "Emma," Ian called out quietly. 
+- **atmospheric-pressure/10.txt**
+  - OLD: "I'm not here to punish you."  ⏎ Ian said. 
+  - NEW: "I'm not here to punish you," Ian said. 
+- **atmospheric-pressure/10.txt**
+  - OLD: "I don't care." ⏎ Ian said firmly. He didn't back down. He reached out, grabbed Emma's small, shaking shoulders, and pulled her into his arms. 
+  - NEW: "I don't care," Ian said firmly. He didn't back down. He reached out, grabbed Emma's small, shaking shoulders, and pulled her into his arms. 
+- **atmospheric-pressure/10.txt**
+  - OLD: "It's okay. It doesn't hurt." ⏎ Ian whispered into Emma's ear. 
+  - NEW: "It's okay. It doesn't hurt," Ian whispered into Emma's ear. 
+- **atmospheric-pressure/11.txt**
+  - OLD: "Man, you're all over the news lately. My mom was going crazy telling me to get your autograph when you came over." ⏎ Leo said, chewing on a piece of fried chicken. 
+  - NEW: "Man, you're all over the news lately. My mom was going crazy telling me to get your autograph when you came over," Leo said, chewing on a piece of fried chicken. 
+- **atmospheric-pressure/11.txt**
+  - OLD: "Who are you?" ⏎ Ian asked, going on alert. 
+  - NEW: "Who are you?" Ian asked, going on alert. 
+- **atmospheric-pressure/12.txt**
+  - OLD: "Well, Ian? Do you understand our cause now?"  ⏎ Evelyn asked as she poured tea. 
+  - NEW: "Well, Ian? Do you understand our cause now?" Evelyn asked as she poured tea. 
+- **atmospheric-pressure/12.txt**
+  - OLD: "So you want to just abolish the family entirely." ⏎ Ian said quietly. 
+  - NEW: "So you want to just abolish the family entirely," Ian said quietly. 
+- **atmospheric-pressure/12.txt**
+  - OLD: "I hugged my monster of a little sister." ⏎ Ian said, grabbing the doorknob and looking back over his shoulder. 
+  - NEW: "I hugged my monster of a little sister," Ian said, grabbing the doorknob and looking back over his shoulder. 
+- **atmospheric-pressure/13.txt**
+  - OLD: "Director Vance."  ⏎ Ian called out, his voice sinking ice-cold. 
+  - NEW: "Director Vance," Ian called out, his voice sinking ice-cold. 
+- **atmospheric-pressure/14.txt**
+  - OLD: "Ian..." ⏎ Sarah called out to him, her voice trembling. "The news... are those things they're saying... true? Did you really attack the Bureau..."
+  - NEW: "Ian..," Helen called out to him, her voice trembling. "The news... are those things they're saying... true? Did you really attack the Bureau..."
+- **atmospheric-pressure/14.txt**
+  - OLD: "Now..."  ⏎ Ian said, his voice trembling slightly. 
+  - NEW: "Now..," Ian said, his voice trembling slightly. 
+- **atmospheric-pressure/15.txt**
+  - OLD: "You were a Level 8. I was a Null. How was I supposed to hit you?"  ⏎ Ian replied with a bitter smile. 
+  - NEW: "You were a Level 8. I was a Null. How was I supposed to hit you?" Ian replied with a bitter smile. 
+- **atmospheric-pressure/15.txt**
+  - OLD: "Ian, hit me just once." ⏎ Emma said suddenly. 
+  - NEW: "Ian, hit me just once," Emma said suddenly. 
+- **atmospheric-pressure/17.txt**
+  - OLD: "No!!" ⏎ David shouted desperately as he snapped the knee of a second agent with a focused burst of Pressure. 
+  - NEW: "No!!" Robert shouted desperately as he snapped the knee of a second agent with a focused burst of Pressure. 
+- **atmospheric-pressure/17.txt**
+  - OLD: "This is a father's job." ⏎ David said, panting heavily. His body was already reaching its limit. Unleashing his Pressure after nine years of suppression was tearing his aged blood vessels apart. 
+  - NEW: "This is a father's job," Robert said, panting heavily. His body was already reaching its limit. Unleashing his Pressure after nine years of suppression was tearing his aged blood vessels apart. 
+- **atmospheric-pressure/18.txt**
+  - OLD: "Take me with you." ⏎ Emma said, limping up behind them. Every breath she took made her grimace in pain from her broken ribs, but her eyes were burning like a feral beast. 
+  - NEW: "Take me with you," Emma said, limping up behind them. Every breath she took made her grimace in pain from her broken ribs, but her eyes were burning like a feral beast. 
+- **cell-division/2.txt**
+  - OLD: "...severe weather warning for Suffolk County... this is John F. Kennedy... Russian missiles in Cuba... turn left at the next intersection... God have mercy on us all..." ⏎ Julian snapped the radio off. The silence inside the cabin was heavy, contrasted by the apocalypse unfolding outside the window
+  - NEW: "...severe weather warning for Suffolk County... this is John F. Kennedy... Russian missiles in Cuba... turn left at the next intersection... God have mercy on us all..," Julian snapped the radio off. The silence inside the cabin was heavy, contrasted by the apocalypse unfolding outside the windows.
+- **echoes-of-the-grid/3.txt**
+  - OLD: "I had a dream last night," Yeonhwa said. "I was a man. A blacksmith. I was making this sword, and a woman — his woman — gave her blood to the metal. And the metal drank it." She looked at the blade on her hip. "It's been drinking ever since, hasn't it?" ⏎ Narses said nothing.
+  - NEW: "I had a dream last night," Yeonhwa said. "I was a man. A blacksmith. I was making this sword, and a woman — his woman — gave her blood to the metal. And the metal drank it." She looked at the blade on her hip. "It's been drinking ever since, hasn't it?" Narses said nothing.
+- **liquidation/3.txt**
+  - OLD: "Isn't it beautiful?" Jules whispered. "The world ended, and they rebuilt Wall Street in forty-eight hours." ⏎ David said nothing. He turned the collar of his jacket against the cold and retreated to his crater. Above him, the fire crackled—its light casting long, grotesque shadows of billionaires w
+  - NEW: "Isn't it beautiful?" Luke whispered. "The world ended, and they rebuilt Wall Street in forty-eight hours," David said nothing. He turned the collar of his jacket against the cold and retreated to his crater. Above him, the fire crackled—its light casting long, grotesque shadows of billionaires warm
+- **liquidation/6.txt**
+  - OLD: "Dennis, knock off the insanity! We're all going to freeze!" ⏎ Someone shouted, but Dennis snorted dismissively.
+  - NEW: "Dennis, knock off the insanity! We're all going to freeze!" someone shouted, but Dennis snorted dismissively.
+- **liquidation/11.txt**
+  - OLD: "Hey! I'll give you my Swiss Patek Philippe watch—hand over one of those Water Vouchers you borrowed!" ⏎ Someone shouted from a corner of the camp. David turned to see a former oil tycoon prying a hundred-thousand-dollar limited-edition watch from his wrist and thrusting it at a venture capitalist. 
+  - NEW: "Hey! I'll give you my Swiss Patek Philippe watch—hand over one of those Water Vouchers you borrowed!" someone shouted from a corner of the camp. David turned to see a former oil tycoon prying a hundred-thousand-dollar limited-edition watch from his wrist and thrusting it at a venture capitalist. Th
+- **liquidation/20.txt**
+  - OLD: "Nathaniel." ⏎ David called out, his voice low.
+  - NEW: "Nathaniel," David called out, his voice low.
+- **liquidation/21.txt**
+  - OLD: "If Jules provokes them, everyone dies." ⏎ Chloe whispered low and tugged at David's sleeve.
+  - NEW: "If Luke provokes them, everyone dies," Claire whispered low and tugged at David's sleeve.
+- **liquidation/22.txt**
+  - OLD: "Sabotage? How?" ⏎ Chloe asked, bewildered. "They don't control people with virtual debts like Nathaniel did. That place is a pure real economy—nothing but violence and calories. There isn't even a ledger to falsify. How do you destroy a system like that?"
+  - NEW: "Sabotage? How?" Claire asked, bewildered. "They don't control people with virtual debts like Nathaniel did. That place is a pure real economy—nothing but violence and calories. There isn't even a ledger to falsify. How do you destroy a system like that?"
+- **liquidation/23.txt**
+  - OLD: "So that's the 'thermodynamic ledger' you were talking about." ⏎ Chloe whispered, horrified.
+  - NEW: "So that's the 'thermodynamic ledger' you were talking about," Claire whispered, horrified.
+- **liquidation/25.txt**
+  - OLD: "The true wild is a place where neither the rules of capitalism nor the logic of overload hold any power." ⏎ David whispered, dissolving into the darkness.
+  - NEW: "The true wild is a place where neither the rules of capitalism nor the logic of overload hold any power," David whispered, dissolving into the darkness.
+- **liquidation/26.txt**
+  - OLD: "Don't move." ⏎ David whispered, his lips barely stirring.
+  - NEW: "Don't move," David whispered, his lips barely stirring.
+- **liquidation/28.txt**
+  - OLD: "I'm entering a Manual Override code, but the firewall's too thick! Without the old-world security code that carries top-level admin privileges, I can't stop these things!" ⏎ Chloe shouted, cold sweat running down her face beneath the red glow.
+  - NEW: "I'm entering a Manual Override code, but the firewall's too thick! Without the old-world security code that carries top-level admin privileges, I can't stop these things!" Claire shouted, cold sweat running down her face beneath the red glow.
+- **liquidation/29.txt**
+  - OLD: "Is there an exit? An emergency evacuation route for executives or VIPs who visited for inspections—something like that." ⏎ David asked with perfect composure.
+  - NEW: "Is there an exit? An emergency evacuation route for executives or VIPs who visited for inspections—something like that," David asked with perfect composure.
+- **the-day/6.txt**
+  - OLD: "Pitiful bastards." ⏎ Jason muttered in a hollow voice, looking down at his own dry palms. The riot of the dead jealous of life. In this deformed ecosystem, men tried to prove their superiority by destroying nature, but it only served to prove that they were 'corpses' perfectly phased out of the eco
+  - NEW: "Pitiful bastards," Jason muttered in a hollow voice, looking down at his own dry palms. The riot of the dead jealous of life. In this deformed ecosystem, men tried to prove their superiority by destroying nature, but it only served to prove that they were 'corpses' perfectly phased out of the ecosy
+- **the-day/10.txt**
+  - OLD: "You had a really hard time out there again today, didn't you... It's okay. Everything is going to be okay." ⏎ Dylan whispered, slowly stroking Mike's rough hair. It wasn't his usual masculine voice, but a 'female intonation', consciously raised in pitch and endlessly softened.
+  - NEW: "You had a really hard time out there again today, didn't you... It's okay. Everything is going to be okay," Dylan whispered, slowly stroking Mike's rough hair. It wasn't his usual masculine voice, but a soft, feminine cadence, consciously raised in pitch and endlessly softened.
+- **the-day/11.txt**
+  - OLD: "Yes... It's wondrous, Professor. It's growing rapidly." ⏎ Jason replied with a hollow voice and turned toward the mechanical room door. The smell of death leaked between his lips as he spat the lie.
+  - NEW: "Yes... It's wondrous, Professor. It's growing rapidly," Jason replied with a hollow voice and turned toward the mechanical room door. The smell of death leaked between his lips as he spat the lie.
+
+### synonym (39)
+- **liquidation/1.txt**: …This obscene tableau triggered a memory: twelve years ago, whe…
+- **liquidation/1.txt**: …rough the dense branches before being suddenly set upon by a flock of obscenely swollen crows. It shattered and plummeted to the …
+- **liquidation/6.txt**: …David Sterling observed this obscene peace from a step removed, and opened his diary.…
+- **liquidation/7.txt**: …e volcanic demand for Preston's "infrastructure" sent his vanity into obscene, metastatic growth. He dragged planks to the edge…
+- **liquidation/8.txt**: …David, the senior actuary, had mentally tallied that obscene ledger and shuddered.…
+- **liquidation/8.txt**: …, capitalism had fed on human neural pathways and evolved into a more obscene, more vicious strain of virus. This absurd market…
+- **liquidation/9.txt**: …a tree stump at a safe distance, let out a cold, silent laugh at this obscene linguistic performance.…
+- **liquidation/9.txt**: …wn at Preston's desperate face for a long moment, then erupted into a obscene peal of laughter.…
+- **liquidation/9.txt**: …round every one of their necks. The new world's first "restructuring"—obscene and merciless—was complete.…
+- **liquidation/11.txt**: …Nathaniel leaned against the cart, surveying his obscene flea market with serene satisfaction. David appro…
+- **liquidation/13.txt**: …s face was streaked with blood and mud, but his eyes glinted with the obscene elation of having exercised power. The remaining …
+- **liquidation/15.txt**: … mottled purple from each other's fists. Yet their eyes burned with a obscene need to confirm whether their log was bigger than…
+- **liquidation/15.txt**: … axe-wielding, blood-spattered CEO, panting like a beast. Before that obscene display of violence, no one condemned him. Even N…
+- **liquidation/17.txt**: … Slowly, he turned. In his dull, unfocused pupils, a single colossal, obscene silhouette materialized through the fog—looming o…
+- **liquidation/18.txt**: …At that same hour, the camp's morning was seething with a obscene vitality.…
+- **liquidation/19.txt**: …David's gaze followed Claire's toward the forest. ⏎ Between the obscene roar of the purifier's motor, the sound of underg…
+- **liquidation/19.txt**: … neo-humans themselves materialized—towering two-meter giants clad in obscene patchwork armor of raw animal hide and scrap meta…
+- **liquidation/20.txt**: … in the torchlight—towering nearly seven feet tall, bodies encased in obscene patchwork armor of scrap metal and raw animal hid…
+- **liquidation/20.txt**: … scattered like spiders. But days of forced labor, dysentery, and the obscene derivative-trading frenzy had drained every last …
+- **liquidation/20.txt**: …he camp's perimeter. Through the gaps between fronds, he watched this obscene, merciless pandemonium unfold, holding his breath…
+- **liquidation/20.txt**: …And one man watched this spectacle with the most obscene expression of all. Nathaniel Pierce.…
+- **liquidation/21.txt**: …d was merely a vast simulation game—throw in a variable, observe what obscene output it produces.…
+- **liquidation/21.txt**: …At the end of this obscene quality-assurance inspection, the Alpha's gaze ca…
+- **liquidation/24.txt**: …erated to a manic velocity. The turbine's RPM spiked violently, and a obscene vibration began radiating through the entire comp…
+- **liquidation/24.txt**: … inhaled a surge of power it was never designed to hold and emitted a obscene, building roar. Luke scrambled backward. The blue…
+- **liquidation/25.txt**: …d as logs, refusing even to twitch. When he forced himself upright, a obscene wet rupture sounded from his knee joint, and an e…
+- **liquidation/25.txt**: …Against the backdrop of Luke's deranged laughter, obscene metallic sounds began to stir within the flames—t…
+- **the-day/3.txt**: …orld where women had disappeared, sanitary pads had been reborn for a uncanny purpose. Men used them as combat boot insoles or …
+- **the-day/7.txt**: …Jason left the uncanny black market scene behind and came up to the firs…
+- **the-day/7.txt**: …n the young man's convulsions seemed not out of pain, but closer to a uncanny nervous reflex created by the compulsion that he …
+- **the-day/11.txt**: …ear of human extinction. Professor Harrison firmly believed that this uncanny research, going against the fundamental providenc…
+- **the-day/14.txt**: …A uncanny self-harm party of corpses unable to suffer. Watc…
+- **the-day/15.txt**: …ason let out a small, chilling laugh. The laugh gradually grew into a uncanny guffaw that echoed through the entire living room…
+- **the-day/16.txt**: … The eyes of the man who pulled the trigger widened in horror. It was uncanny enough that he didn't scream once after taking a …
+- **the-day/16.txt**: …powder smoke cleared slightly, the scene in the lobby began to emit a uncanny dissonance. Clearly, more than half of the red ar…
+- **the-day/16.txt**: …ation line were, one by one, raising their bodies from the floor with uncanny joint-cracking sounds.…
+- **the-day/17.txt**: …. Hahahahat!" Mike began to laugh maniacally. It wasn't fear, but the uncanny ecstasy of someone who had been eternally liberat…
+- **the-day/17.txt**: …e fear of death, no longer dodged the flying bullets. They burst into uncanny laughter and charged fiercely into the muzzles of…
+- **the-day/18.txt**: …er's pupils completely lost their focus. Covered in tears and snot, a uncanny metallic sound, like a beast being slaughtered, l…
+
+## 3. Cross-novel capitalized-name collisions
+- Don: atmospheric-pressure(9), cell-division(5), echoes-of-the-grid(17), isolation(5), liquidation(6)
+- Like: atmospheric-pressure(5), cell-division(3), echoes-of-the-grid(8), the-day(3)
+- Behind: atmospheric-pressure(3), cell-division(3), isolation(4), liquidation(4)
+- Come: atmospheric-pressure(5), echoes-of-the-grid(5), the-day(3)
+- Blood: atmospheric-pressure(5), echoes-of-the-grid(4), isolation(3)
+- Let: atmospheric-pressure(3), cell-division(4), liquidation(7)
+- Everyone: atmospheric-pressure(3), echoes-of-the-grid(3), liquidation(9)
+- While: atmospheric-pressure(3), liquidation(8)
+- Right: atmospheric-pressure(6), cell-division(5)
+- Since: atmospheric-pressure(3), liquidation(3)
+- King: atmospheric-pressure(3), echoes-of-the-grid(7)
+- Han: atmospheric-pressure(7), echoes-of-the-grid(6)
+- Over: atmospheric-pressure(4), liquidation(4)
+- Hundreds: atmospheric-pressure(3), echoes-of-the-grid(4)
+- Take: atmospheric-pressure(3), echoes-of-the-grid(3)
+- Time: cell-division(3), echoes-of-the-grid(4)
+- New: cell-division(4), liquidation(7)
+- Tell: cell-division(5), echoes-of-the-grid(4)
+- Four: cell-division(3), echoes-of-the-grid(6)
+- Good: cell-division(3), echoes-of-the-grid(3)
+- Move: cell-division(5), liquidation(3)
+- Until: cell-division(3), echoes-of-the-grid(6)
+- War: cell-division(4), echoes-of-the-grid(5)
+- Dark: cell-division(6), echoes-of-the-grid(3)
+- North: cell-division(5), echoes-of-the-grid(8)
+- Mountain: cell-division(3), echoes-of-the-grid(3)
+- Beyond: cell-division(3), liquidation(3)
+- Can: echoes-of-the-grid(8), liquidation(4)
+- Within: echoes-of-the-grid(13), liquidation(3)
+- Another: echoes-of-the-grid(3), liquidation(3)
+- Help: isolation(5), liquidation(4)
+- Mother: isolation(3), the-day(3)

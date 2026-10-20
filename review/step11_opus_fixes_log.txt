@@ -1,0 +1,62 @@
+- revert liquidation: "obscenely" -> "grotesquely" x1
+- revert liquidation: "obscene" -> "grotesque" x27
+- revert the-day: "uncanny" -> "bizarre" x12
+- liquidation: OK  x1  "observed this grotesque peace"
+- liquidation: OK  x1  "tallied that grotesque ledger"
+- liquidation: OK  x1  "into a more grotesque, more vicious strain"
+- liquidation: OK  x1  "at this grotesque linguistic performance"
+- liquidation: OK  x2  "erupted into a grotesque peal of laughter"
+- liquidation: OK  x1  "—grotesque and merciless—"
+- liquidation: OK  x1  "surveying his grotesque flea market"
+- liquidation: OK  x1  "the grotesque elation of having exercised power"
+- liquidation: OK  x1  "burned with a grotesque need to confirm"
+- liquidation: OK  x1  "Before that grotesque display of violence"
+- liquidation: OK  x1  "a single colossal, grotesque silhouette"
+- liquidation: OK  x1  "seething with a grotesque vitality"
+- liquidation: OK  x1  "Between the grotesque roar of the purifier"
+- liquidation: OK  x1  "towering two-meter giants"
+- liquidation: OK  x1  "encased in grotesque patchwork armor"
+- liquidation: OK  x1  "the grotesque derivative-trading frenzy"
+- liquidation: OK  x1  "the most grotesque expression of all"
+- liquidation: OK  x1  "observe what grotesque output it produces"
+- liquidation: OK  x1  "At the end of this grotesque quality-assurance inspection"
+- liquidation: OK  x1  "and a grotesque vibration began radiating"
+- liquidation: OK  x1  "emitted a grotesque, building roar"
+- liquidation: OK  x1  "a grotesque wet rupture sounded"
+- liquidation: OK  x1  "grotesque metallic sounds began to stir"
+- liquidation: OK  x1  "in forty-eight hours," David said nothing."
+- the-day: OK  x1  "reborn for a bizarre purpose"
+- the-day: OK  x1  "left the bizarre black market scene behind"
+- the-day: OK  x1  "closer to a bizarre nervous reflex"
+- the-day: OK  x1  "that this bizarre research"
+- the-day: OK  x1  "A bizarre self-harm party of corpses"
+- the-day: OK  x1  "grew into a bizarre guffaw"
+- the-day: OK  x1  "It was bizarre enough that he"
+- the-day: OK  x1  "began to emit a bizarre dissonance"
+- the-day: OK  x1  "with bizarre joint-cracking sounds"
+- the-day: OK  x1  "the bizarre ecstasy of someone"
+- the-day: OK  x1  "burst into bizarre laughter"
+- the-day: OK  x1  "a bizarre metallic sound, like a beast"
+- the-day: OK  x1  "but a soft, feminine cadence, consciously raised in pitch an"
+- atmospheric-pressure: OK  x1  "Mornings in the Miller house began"
+- atmospheric-pressure: OK  x1  "any second," She whispered those words and turned back to he"
+- atmospheric-pressure: OK  x1  "real classification," She said it as if commenting on the we"
+- echoes-of-the-grid: OK  x1  "hasn't it?" Narses said nothing."
+- cell-division: OK  x1  "God have mercy on us all..," Julian snapped the radio off."
+- global ellipsis-comma fix ( ..," -> ..." ) x3
+
+## Residual checks
+  - [comma + capital pronoun after quote] atmospheric-pressure/11.txt: … will join us eventually. Because you already know," She whispered right next to his ear.   "You …
+  - [metric (US-set novels)] liquidation/4.txt: …attempted to climb a tree. He made it exactly one meter before his arms—atrophied by a decade o…
+  - [metric (US-set novels)] liquidation/7.txt: …tskirts.  Their destination was the three-by-three-meter "latrine pit" that Preston Huntington I…
+  - [metric (US-set novels)] liquidation/8.txt: …and commanded legions of servants, this ten-square-meter equality was a suffocating torture. Ins…
+  - [metric (US-set novels)] liquidation/8.txt: …sentence. For a human being locked in a ten-square-meter white cell, being treated as invisible …
+  - [metric (US-set novels)] liquidation/8.txt: … David's eyes open.  The phantom of the ten-square-meter cell dissolved, and the stinking, ruine…
+  - [metric (US-set novels)] liquidation/10.txt: …ide the bunker's perfectly soundproofed ten-square-meter cell, he had heard nothing but white no…
+  - [metric (US-set novels)] liquidation/11.txt: … chip gambling ring inside the bunker's ten-square-meter cells—was now bearing perfect fruit. Th…
+  - [metric (US-set novels)] liquidation/22.txt: …place remained only the most savage metric: a few kilograms of protein and a handful of muscle fibe…
+  - [metric (US-set novels)] liquidation/27.txt: …subprime mortgages, pandemics.  And now, the three-meter-tall, obsidian-plated monstrosity stand…
+  - [metric (US-set novels)] liquidation/27.txt: …machine.  CRASH—!  It was instantaneous. The three-meter hulk launched upward like a coiled spri…
+  - [metric (US-set novels)] liquidation/29.txt: …sly onto the warehouse's concrete floor. The three-meter obsidian-plated creature. Neo-human war…
+  - [metric (US-set novels)] liquidation/29.txt: … was not even a scream. The Alpha's two-and-a-half-meter frame was crushed against the floor—fla…
+  - [metric (US-set novels)] liquidation/30.txt: …us consumed the entire tens-of-thousands-of-square-meter logistics warehouse in an instant.  Ste…
