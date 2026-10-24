@@ -433,18 +433,15 @@ main {
 .novel-paragraph {
   margin-bottom: 1.6rem;
   line-height: 1.9;
-  text-align: justify;
-  word-break: keep-all;
+  text-align: left;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
-/* *별표* -> 효과음 / 내면 독백 / 강조 네온 이탤릭 스타일 */
+/* *별표* -> 내면 독백 / 강조 / 효과음 표준 이탤릭 스타일 */
 .novel-emphasis {
   font-style: italic;
-  color: var(--accent-blue, #00f0ff);
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.35);
-  font-weight: 500;
-  padding: 0 3px;
-  border-radius: 4px;
+  color: #f2f2fa;
 }
 
 /* *** -> 고급스러운 네온 장면 전환선 (Scene Break) */

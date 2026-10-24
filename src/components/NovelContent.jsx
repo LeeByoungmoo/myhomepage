@@ -49,6 +49,7 @@ const NovelContent = ({ rawText }) => {
   const renderedElements = [];
   let paragraphBuffer = [];
   let keyIndex = 0;
+  let hasSeenBodyParagraph = false;
 
   const flushParagraph = () => {
     if (paragraphBuffer.length > 0) {
@@ -77,6 +78,10 @@ const NovelContent = ({ rawText }) => {
     // 2. 장면 전환선 (Scene Break: *** or --- or * * *)
     if (line === '***' || line === '---' || line === '* * *' || line === '*** ') {
       flushParagraph();
+      // 에피소드 제목 직후(첫 본문 문단 등장 전)의 헤더 구분선은 장면 전환 별표로 중복 렌더링하지 않음
+      if (!hasSeenBodyParagraph) {
+        continue;
+      }
       renderedElements.push(
         <div key={`divider-${keyIndex++}`} className="novel-scene-break">
           <span>✦ ✦ ✦</span>
@@ -118,6 +123,7 @@ const NovelContent = ({ rawText }) => {
 
     // 4. 일반 본문 문장 (각 줄을 독립 단락으로 렌더링하여 단일 줄바꿈 대사 병합 방지)
     flushParagraph();
+    hasSeenBodyParagraph = true;
     renderedElements.push(
       <p key={`p-${keyIndex++}`} className="novel-paragraph">
         {parseInlineFormatting(line)}

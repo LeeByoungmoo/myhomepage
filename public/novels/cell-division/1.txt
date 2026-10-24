@@ -42,7 +42,7 @@ He didn't wait for a greeting. He slammed a thick stack of crumpled plotter prin
 
 "Julian? What the hell are you doing in Boston? This is a restricted access—"
 
-"Shut up and look at the data," Julian’s voice trembled with a terrifying mix of awe and dread. He smoothed out the top sheet. It was a 3D topographical scan of the Cosmic Microwave Background (CMB)—the residual heat map of the Big Bang.
+"Shut up and look at the data." Julian’s voice trembled with a terrifying mix of awe and dread. He smoothed out the top sheet. It was a 3D topographical scan of the Cosmic Microwave Background (CMB)—the residual heat map of the Big Bang.
 
 "Last night, the VLA servers started receiving an influx of data so massive it nearly melted our mainframes. My team's been piping it to me at the CfA all night," Julian said, pacing frantically. "At first, the Pentagon thought it was an anomaly. A solar flare. Hell, even aliens. But it’s none of those." He stopped and locked eyes with me. "Arthur, the entire observable universe—13.8 billion years of cosmic data—is arriving in duplicate. Perfectly identical patterns, arriving a fraction of a second apart."
 

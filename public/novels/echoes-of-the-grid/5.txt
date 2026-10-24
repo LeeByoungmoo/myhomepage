@@ -102,7 +102,7 @@ The basement entrance was around the back of the building, down a narrow flight 
 
 Adrian pushed the door open and stepped into a space that smelled of damp concrete and old leather.
 
-The basement was small — perhaps four meters square — and nearly empty. A wooden shelf against one wall held a few dusty bottles of soju. A folding chair. A bare bulb hanging from the ceiling, which flickered to life when Adrian pulled the chain. And on the shelf, positioned with the careful precision of something placed rather than stored, a leather-bound journal.
+The basement was small — perhaps twelve feet square — and nearly empty. A wooden shelf against one wall held a few dusty bottles of soju. A folding chair. A bare bulb hanging from the ceiling, which flickered to life when Adrian pulled the chain. And on the shelf, positioned with the careful precision of something placed rather than stored, a leather-bound journal.
 
 It was old. The leather was cracked and darkened with age, the binding repaired multiple times with different materials — silk thread, cotton cord, what appeared to be catgut. The pages inside were a palimpsest of handwriting: different inks, different scripts, different centuries. Some entries were in classical Chinese. Others in Korean *hangul*. A few in scripts Adrian didn't recognize.
 
@@ -227,7 +227,7 @@ The typhoon came from the south.
 
 Bo-san had sailed through storms before — it was an occupational hazard of piracy in the East China Sea — but this one was different. The barometric drop was precipitous, the wind backing from southeast to northeast in a pattern that the helmsman, a man with forty years of ocean experience, called "the devil's pinwheel." The sky turned the color of a bruise. The sea rose.
 
-Bo-san ordered the fleet to make for shelter, but the storm moved faster than any ship. Within an hour, the waves were running at fifteen meters — black walls of water that crashed over the *Sea Dragon*'s deck with enough force to shatter timbers. Two of the smaller ships capsized within the first hour. A third lost its mast and drifted into the dark, its crew's screams audible for precisely three seconds before the wind swallowed them.
+Bo-san ordered the fleet to make for shelter, but the storm moved faster than any ship. Within an hour, the waves were running fifty feet high — black walls of water that crashed over the *Sea Dragon*'s deck with enough force to shatter timbers. Two of the smaller ships capsized within the first hour. A third lost its mast and drifted into the dark, its crew's screams audible for precisely three seconds before the wind swallowed them.
 
 In the chaos, Bo-san stood on the foredeck of the *Sea Dragon* with the blade in his hand.
 
@@ -276,9 +276,3 @@ The character, in ancient Sogdian, meant *warning*.
 *I can wait.*
 
 *I have always been good at waiting.*
-
----
-
-*End of Episode 5*
-
----
