@@ -41,7 +41,7 @@
 
 ### 🚨 [AP-1] 미처 변경되지 않은 한국 성씨 잔재 (`Han`, `Choi`, `Yoon`, `Park`)
 - **발견 내역:**
-  - 주인공 가족의 이름(`Ian`, `Emma`, `Sam`, `Robert`, `Helen`)과 배경(`suburban house`, `pancakes`, `bacon`, `Federal Pressure Control Bureau`)은 100% 미국 본토 설정인데, 가족 성씨가 1, 7, 10, 11, 14, 16, 18, 20화에서 한국 성씨 **`Han`** (`the Han house`, `Ian Han`)으로 남아 있습니다. (국문 원작에서도 미국 배경을 의식해 '밀러(Miller) 가문'으로 설정했던 부분)
+  - 주인공 가족의 이름(`Ian`, `Emma`, `Sam`, `Robert`, `Helen`)과 배경(`suburban house`, `pancakes`, `bacon`, `Federal Pressure Control Bureau`)은 100% 미국 본토 설정인데, 가족 성씨가 1, 7, 10, 11, 14, 16, 18, 20화에서 한국 성씨 **`Han`** (`the Han house`, `Ian Han`)으로 남아 있습니다. (※ 정정: 국문 원작은 '한씨 가문(한예찬)'이며 '밀러'는 등장하지 않음. 영문판은 '전부 외국 이름' 방침에 따라 Miller로 확정)
   - 결정적으로 **11화(`11.txt`)**에서 도시의 다른 세 가족을 소개할 때 한국 성씨가 그대로 남아 있습니다:
     - `11.txt:L11, L32`: **`[The Choi Family - The Perfect House]`**, **`the Choi family`**
     - `11.txt:L36, L41`: **`[The Yoon Family - The Inverted House]`**, **`Tyler Yoon`**
