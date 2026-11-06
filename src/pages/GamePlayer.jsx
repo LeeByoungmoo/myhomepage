@@ -2,12 +2,17 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Maximize2, Minimize2, Download } from 'lucide-react';
 import { useState } from 'react';
 import HwatuWeb from './HwatuWeb';
+import JanggiBoard from '../components/janggi/JanggiBoard';
+
+const baseUrl = import.meta.env.BASE_URL || '/';
 
 const gamesMap = {
-  'rockpaper': { title: 'Rock Paper Scissors', path: '/myhomepage/games/rockpaper/index.html' },
-  'worldcup': { title: 'World Cup', path: '/myhomepage/games/worldcup/index.html' },
-  'calc_game': { title: 'Calculator Game', path: '/myhomepage/games/calc_game/index.html' },
-  'hwatugame': { title: 'Hwatu (Go-Stop)', isReactComponent: true, apkPath: '/myhomepage/games/hwatugame.apk' },
+  'janggi': { title: 'Double-Strike Janggi (연격 장기)', isReactComponent: true },
+  'sudoku': { title: 'Sudoku', path: `${baseUrl}games/sudoku/index.html` },
+  'rockpaper': { title: 'Rock Paper Scissors', path: `${baseUrl}games/rockpaper/index.html` },
+  'worldcup': { title: 'World Cup', path: `${baseUrl}games/worldcup/index.html` },
+  'calc_game': { title: 'Calculator Game', path: `${baseUrl}games/calc_game/index.html` },
+  'hwatugame': { title: 'Hwatu (Go-Stop)', isReactComponent: true, apkPath: `${baseUrl}games/hwatugame.apk` },
 };
 
 const GamePlayer = () => {
@@ -72,7 +77,8 @@ const GamePlayer = () => {
       {/* Game Container */}
       <div style={{ flex: 1, background: '#111', borderRadius: isFullscreen ? '0' : '0 0 12px 12px', overflow: 'auto', border: isFullscreen ? 'none' : '1px solid var(--glass-border)', borderTop: 'none' }}>
         {game.isReactComponent ? (
-          id === 'hwatugame' && <HwatuWeb />
+          id === 'hwatugame' ? <HwatuWeb /> :
+          id === 'janggi' ? <JanggiBoard /> : null
         ) : (
           <iframe 
             src={game.path} 

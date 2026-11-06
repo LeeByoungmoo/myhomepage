@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
 const gamesData = [
+  { id: 'janggi', title: '연격 장기 (Double-Strike)', desc: '기물 합체와 2연속 연격을 지원하는 스타일리쉬 사이버 장기.', icon: '⚡' },
+  { id: 'sudoku', title: 'Sudoku', desc: 'A stylish and minimal number placement puzzle.', icon: '🔢' },
   { id: 'rockpaper', title: 'Rock Paper Scissors', desc: 'A classic game of Rock Paper Scissors.', icon: '✌️' },
   { id: 'worldcup', title: 'World Cup', desc: 'Choose your favorites in this bracket-style tournament.', icon: '🏆' },
   { id: 'calc_game', title: 'Calculator Game', desc: 'A brain-teasing number puzzle.', icon: '🧮' },

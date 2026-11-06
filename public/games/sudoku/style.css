@@ -1,0 +1,247 @@
+:root {
+    --bg-color: #f8f9fa;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --board-bg: #ffffff;
+    --cell-border: #e9ecef;
+    --block-border: #495057;
+    
+    --fixed-text: #212529;
+    --input-text: #4361ee;
+    --error-text: #e63946;
+    
+    --selected-cell: #d0e1fd;
+    --highlighted-cell: #edf2fb;
+    --error-bg: #ffe3e3;
+    
+    --btn-bg: #ffffff;
+    --btn-hover: #f1f3f5;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.05);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title-group h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+}
+
+.title-group .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.controls {
+    display: flex;
+    gap: 12px;
+}
+
+select, button {
+    padding: 10px 16px;
+    border: 1px solid var(--cell-border);
+    border-radius: 8px;
+    background-color: var(--btn-bg);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+    outline: none;
+    appearance: none;
+}
+
+button:hover, select:hover {
+    background-color: var(--btn-hover);
+    transform: translateY(-1px);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    aspect-ratio: 1;
+    background-color: var(--board-bg);
+    border: 2px solid var(--block-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    animation: fadeIn 0.5s ease-out;
+}
+
+.cell {
+    border: 1px solid var(--cell-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    color: var(--input-text);
+}
+
+.cell.fixed {
+    color: var(--fixed-text);
+    font-weight: 600;
+    background-color: #fdfdfd;
+}
+
+.cell.selected {
+    background-color: var(--selected-cell) !important;
+}
+
+.cell.highlighted {
+    background-color: var(--highlighted-cell);
+}
+
+.cell.error {
+    color: var(--error-text);
+    background-color: var(--error-bg);
+    animation: shake 0.3s ease-in-out;
+}
+
+/* Thicker borders for 3x3 blocks */
+.cell:nth-child(3n) {
+    border-right: 2px solid var(--block-border);
+}
+.cell:nth-child(9n) {
+    border-right: none; /* Last cell in row doesn't need extra border as grid has border */
+}
+/* Rows 3 and 6 bottom border */
+.cell[data-row="2"], .cell[data-row="5"] {
+    border-bottom: 2px solid var(--block-border);
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.num-btn, .action-btn {
+    padding: 16px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn {
+    color: var(--error-text);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-content {
+    background-color: var(--board-bg);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.modal.hidden .modal-content {
+    transform: scale(0.9);
+}
+
+.modal-content h2 {
+    font-size: 2rem;
+    color: var(--input-text);
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+
+.modal-content button {
+    background-color: var(--input-text);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.modal-content button:hover {
+    background-color: #324edc;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    75% { transform: translateX(3px); }
+}
+
+@media (max-width: 500px) {
+    .cell {
+        font-size: 1.2rem;
+    }
+    .num-btn, .action-btn {
+        padding: 12px 0;
+    }
+}

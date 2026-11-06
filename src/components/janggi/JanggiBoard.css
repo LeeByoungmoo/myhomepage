@@ -1,0 +1,495 @@
+/* =========================================================
+   Double-Strike Janggi (연격 장기) - Cyber-Tactical Styling
+   ========================================================= */
+
+.janggi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #e2e8f0;
+  user-select: none;
+}
+
+/* --- Header & Status Controls --- */
+.janggi-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.title-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.title-badge h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00f0ff, #ff0055);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+
+.sub-tag {
+  font-size: 0.75rem;
+  background: rgba(250, 204, 21, 0.15);
+  color: #facc15;
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.turn-status-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.turn-indicator-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.turn-indicator-dot.cho {
+  background: #00f0ff;
+  box-shadow: 0 0 12px #00f0ff;
+}
+
+.turn-indicator-dot.han {
+  background: #ff0055;
+  box-shadow: 0 0 12px #ff0055;
+}
+
+.controls-group {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.btn-ctrl {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #e2e8f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.btn-ctrl:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.btn-ctrl.active {
+  background: var(--accent-blue, #00f0ff);
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+/* --- Board Outer Layout --- */
+.board-wrapper {
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, #111827, #070a0f);
+  padding: 24px;
+  border-radius: 24px;
+  border: 2px solid rgba(0, 240, 255, 0.25);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), inset 0 0 30px rgba(0, 240, 255, 0.05);
+}
+
+/* 9 Columns x 10 Rows Grid */
+.janggi-board {
+  display: grid;
+  grid-template-columns: repeat(9, 60px);
+  grid-template-rows: repeat(10, 60px);
+  gap: 0px;
+  position: relative;
+  background-color: transparent;
+}
+
+/* Grid lines overlay via SVG */
+.board-svg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.board-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* --- Palace Highlight Areas --- */
+.board-cell.in-palace-han {
+  background: rgba(255, 0, 85, 0.04);
+}
+
+.board-cell.in-palace-cho {
+  background: rgba(0, 240, 255, 0.04);
+}
+
+/* --- Piece Unit Styling --- */
+.piece-disc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+  user-select: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.piece-disc:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+/* Team Cho (Blue/Cyan) */
+.piece-disc.cho {
+  background: radial-gradient(circle at 35% 35%, #1e293b, #090d16);
+  border: 2px solid #00f0ff;
+  color: #00f0ff;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.35);
+}
+
+/* Team Han (Red/Magenta) */
+.piece-disc.han {
+  background: radial-gradient(circle at 35% 35%, #2a121d, #11050a);
+  border: 2px solid #ff0055;
+  color: #ff0055;
+  box-shadow: 0 0 14px rgba(255, 0, 85, 0.35);
+}
+
+/* King piece special size */
+.piece-disc.is-king {
+  width: 54px;
+  height: 54px;
+  border-width: 2.5px;
+}
+
+/* Selected state */
+.piece-disc.selected {
+  transform: scale(1.15) translateY(-4px);
+  border-color: #facc15 !important;
+  box-shadow: 0 0 25px rgba(250, 204, 21, 0.8) !important;
+  z-index: 15;
+}
+
+/* --- Stacked / Fusion Unit Styling (Orbital Ring) --- */
+.piece-disc.is-stacked {
+  border-color: #facc15 !important;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.5), inset 0 0 10px rgba(250, 204, 21, 0.2) !important;
+}
+
+.piece-disc.is-stacked::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(250, 204, 21, 0.85);
+  animation: orbital-spin 7s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes orbital-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Single Piece Kanji Text */
+.single-kanji {
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-shadow: 0 0 8px currentColor;
+  line-height: 1;
+}
+
+/* Split Badge for Stacked Unit */
+.split-badge {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.split-kanji-1 {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  font-size: 1.05rem;
+  font-weight: 900;
+  text-shadow: 0 0 6px currentColor;
+}
+
+.split-kanji-2 {
+  position: absolute;
+  bottom: 6px;
+  right: 9px;
+  font-size: 1.05rem;
+  font-weight: 900;
+  text-shadow: 0 0 6px currentColor;
+}
+
+.split-divider {
+  position: absolute;
+  width: 70%;
+  height: 1.5px;
+  background: rgba(250, 204, 21, 0.7);
+  transform: rotate(-45deg);
+  box-shadow: 0 0 6px #facc15;
+}
+
+/* --- Movement Destination Highlights --- */
+.move-marker {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: pulse-marker 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse-marker {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.25); opacity: 1; }
+}
+
+/* Normal empty move */
+.move-marker.single-move {
+  background: #00f0ff;
+  box-shadow: 0 0 12px #00f0ff;
+}
+
+/* Capture enemy */
+.move-marker.capture {
+  width: 48px;
+  height: 48px;
+  border: 3px solid #ff0055;
+  background: rgba(255, 0, 85, 0.2);
+  box-shadow: 0 0 16px #ff0055;
+  border-radius: 50%;
+}
+
+/* Fusion with ally */
+.move-marker.fusion {
+  width: 48px;
+  height: 48px;
+  border: 3px dashed #facc15;
+  background: rgba(250, 204, 21, 0.15);
+  box-shadow: 0 0 18px #facc15;
+  border-radius: 50%;
+  animation: pulse-marker 1.2s infinite;
+}
+
+/* Step 1 Combo Destination (Cyan / Violet) */
+.move-marker.step1-via-a {
+  background: #00f0ff;
+  box-shadow: 0 0 14px #00f0ff;
+}
+
+.move-marker.step1-via-b {
+  background: #a855f7;
+  box-shadow: 0 0 14px #a855f7;
+}
+
+/* Step 2 Combo Destination (Yellow / Gold) */
+.move-marker.step2-dest {
+  background: #facc15;
+  box-shadow: 0 0 16px #facc15;
+  width: 26px;
+  height: 26px;
+}
+
+/* Floating Action Bar (Step 1 Moved) */
+.floating-action-bar {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(16px);
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(250, 204, 21, 0.2);
+  z-index: 100;
+  animation: slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translate(-50%, 20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.btn-floating {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s;
+}
+
+.btn-floating.stop {
+  background: #facc15;
+  color: #000;
+}
+
+.btn-floating.stop:hover {
+  background: #ffd700;
+  transform: scale(1.05);
+}
+
+.btn-floating.undo {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+.btn-floating.undo:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* Modal */
+.game-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fade-in 0.3s ease;
+}
+
+.game-modal-card {
+  background: #111827;
+  border: 2px solid rgba(0, 240, 255, 0.3);
+  padding: 2.5rem;
+  border-radius: 24px;
+  text-align: center;
+  max-width: 460px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 240, 255, 0.2);
+}
+
+.game-modal-card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #facc15;
+}
+
+.game-modal-card p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.btn-modal {
+  background: linear-gradient(135deg, #00f0ff, #0077ff);
+  color: #000;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-modal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+}
+
+/* Responsive adjustment */
+@media (max-width: 650px) {
+  .janggi-board {
+    grid-template-columns: repeat(9, 36px);
+    grid-template-rows: repeat(10, 36px);
+  }
+  .board-wrapper {
+    padding: 12px;
+  }
+  .piece-disc {
+    width: 32px;
+    height: 32px;
+  }
+  .piece-disc.is-king {
+    width: 34px;
+    height: 34px;
+  }
+  .single-kanji {
+    font-size: 1rem;
+  }
+  .split-kanji-1, .split-kanji-2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .board-wrapper {
+    padding: 8px 4px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    touch-action: manipulation;
+  }
+  .janggi-board {
+    grid-template-columns: repeat(9, min(36px, calc((100vw - 28px) / 9)));
+    grid-template-rows: repeat(10, min(36px, calc((100vw - 28px) / 9)));
+  }
+  .piece-disc {
+    width: min(30px, calc((100vw - 32px) / 9));
+    height: min(30px, calc((100vw - 32px) / 9));
+  }
+}

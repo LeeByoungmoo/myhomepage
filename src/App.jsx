@@ -11,9 +11,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Novels />} />
+          <Route index element={<Home />} />
           <Route path="novels" element={<Novels />} />
           <Route path="novels/:id/:chapter" element={<Reader />} />
+          <Route path="games" element={<Games />} />
+          <Route path="games/:id" element={<GamePlayer />} />
         </Route>
       </Routes>
     </Router>

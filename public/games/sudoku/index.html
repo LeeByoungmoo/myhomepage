@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title-group">
+                <h1>Sudoku</h1>
+                <p class="subtitle">Daily Challenge</p>
+            </div>
+            <div class="controls">
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <button id="new-game-btn">New Game</button>
+            </div>
+        </header>
+
+        <div id="sudoku-board" class="board"></div>
+
+        <div class="numpad">
+            <button class="num-btn">1</button>
+            <button class="num-btn">2</button>
+            <button class="num-btn">3</button>
+            <button class="num-btn">4</button>
+            <button class="num-btn">5</button>
+            <button class="num-btn">6</button>
+            <button class="num-btn">7</button>
+            <button class="num-btn">8</button>
+            <button class="num-btn">9</button>
+            <button class="action-btn" id="erase-btn">⌫</button>
+        </div>
+    </div>
+    
+    <!-- Win Modal -->
+    <div id="win-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Excellent!</h2>
+            <p>You have solved the puzzle.</p>
+            <button id="modal-new-game-btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
